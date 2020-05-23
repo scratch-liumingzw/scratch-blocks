@@ -350,3 +350,13 @@ Blockly.Msg.NEW_BROADCAST_MESSAGE = 'New message';
 Blockly.Msg.NEW_BROADCAST_MESSAGE_TITLE = 'New message name:';
 Blockly.Msg.BROADCAST_MODAL_TITLE = 'New Message';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
+
+
+//customize blocks for rotrics-studio-app
+//motion
+Blockly.Msg.MOTION_RESET = 'reset';
+Blockly.Msg.MOTION_MOVE_HOME = 'move to home';
+Blockly.Msg.MOTION_MOVE_ORIGIN = 'move to origin';
+Blockly.Msg.MOTION_MOVE_POSITION = 'move to position x %1 y %2 z %3';
+Blockly.Msg.MOTION_SET_WORK_ORIGIN = 'set work origin';
+
