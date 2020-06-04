@@ -190,7 +190,7 @@ Blockly.BlockDragSurfaceSvg.prototype.setBlocksAndShow = function(blocks) {
   // Note that this behavior is different from blockly where block disappear
   // "under" the blockly area.
   var injectionDiv = document.getElementsByClassName('injectionDiv')[0];
-  injectionDiv.style.overflow = 'visible';
+  // injectionDiv.style.overflow = 'visible';
 };
 
 /**
