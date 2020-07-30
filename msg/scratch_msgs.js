@@ -3436,7 +3436,13 @@ Blockly.ScratchMsgs.locales["de"] =
     "NEW_BROADCAST_MESSAGE": "Neue Nachricht",
     "NEW_BROADCAST_MESSAGE_TITLE": "Neuer Nachrichtentext:",
     "BROADCAST_MODAL_TITLE": "Neue Nachricht",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "Nachricht1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "Nachricht1",
+
+    "MOTION_RESET": "Zurücksetzen",
+    "MOTION_MOVE_HOME": "Zurück zur Startseite",
+    "MOTION_MOVE_ORIGIN": "Zurück zum Ausgangspunkt",
+    "MOTION_MOVE_POSITION": "in Position bewegen x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "Arbeitsursprung einstellen"
   };
 
 Blockly.ScratchMsgs.locales["et"] =
@@ -4297,7 +4303,7 @@ Blockly.ScratchMsgs.locales["en"] =
     "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
 
     "MOTION_RESET": "reset",
-    "MOTION_MOVE_HOME": "move to home",
+    "MOTION_MOVE_HOME": "move home",
     "MOTION_MOVE_ORIGIN": "move to origin",
     "MOTION_MOVE_POSITION": "move to position x %1 y %2 z %3",
     "MOTION_SET_WORK_ORIGIN": "set work origin"
@@ -4586,7 +4592,13 @@ Blockly.ScratchMsgs.locales["es"] =
     "NEW_BROADCAST_MESSAGE": "Nuevo mensaje",
     "NEW_BROADCAST_MESSAGE_TITLE": "Nombre del mensaje:",
     "BROADCAST_MODAL_TITLE": "Nuevo Mensaje",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "mensaje1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "mensaje1",
+
+    "MOTION_RESET": "Reiniciar",
+    "MOTION_MOVE_HOME": "mover a Inicio",
+    "MOTION_MOVE_ORIGIN": "mover al origen",
+    "MOTION_MOVE_POSITION": "mover a la posición x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "establecer origen de trabajo"
   };
 
 Blockly.ScratchMsgs.locales["es-419"] =
@@ -5730,7 +5742,13 @@ Blockly.ScratchMsgs.locales["fr"] =
     "NEW_BROADCAST_MESSAGE": "Nouveau message",
     "NEW_BROADCAST_MESSAGE_TITLE": "Nom du nouveau message:",
     "BROADCAST_MODAL_TITLE": "Nouveau message",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+
+    "MOTION_RESET": "Réinitialiser",
+    "MOTION_MOVE_HOME": "Passer à l'accueil",
+    "MOTION_MOVE_ORIGIN": "Passer à l'origine",
+    "MOTION_MOVE_POSITION": "Passer à la position x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "Régler l'origine du travail"
   };
 
 Blockly.ScratchMsgs.locales["ga"] =
@@ -6874,7 +6892,13 @@ Blockly.ScratchMsgs.locales["ko"] =
     "NEW_BROADCAST_MESSAGE": "새로운 메시지",
     "NEW_BROADCAST_MESSAGE_TITLE": "새로운 메시지 이름:",
     "BROADCAST_MODAL_TITLE": "새로운 메시지",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "메시지1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "메시지1",
+
+    "MOTION_RESET": "다시 열림",
+    "MOTION_MOVE_HOME": "집까지 이사함",
+    "MOTION_MOVE_ORIGIN": "원점으로 이동함",
+    "MOTION_MOVE_POSITION": "위치에 이동함 x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "공작원점 설정",
   };
 
 Blockly.ScratchMsgs.locales["hy"] =
@@ -8590,7 +8614,13 @@ Blockly.ScratchMsgs.locales["it"] =
     "NEW_BROADCAST_MESSAGE": "Nuovo messaggio",
     "NEW_BROADCAST_MESSAGE_TITLE": "Nome del nuovo messaggio:",
     "BROADCAST_MODAL_TITLE": "Nuovo Messaggio",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "messaggio1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "messaggio1",
+
+    "MOTION_RESET": "Ripristina",
+    "MOTION_MOVE_HOME": "Muovi a casa",
+    "MOTION_MOVE_ORIGIN": "Muovi a origine",
+    "MOTION_MOVE_POSITION": "Muovi alla posizione x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "Imposta l'origine del lavoro"
   };
 
 Blockly.ScratchMsgs.locales["ka"] =
@@ -11736,7 +11766,13 @@ Blockly.ScratchMsgs.locales["ja"] =
     "NEW_BROADCAST_MESSAGE": "新しいメッセージ",
     "NEW_BROADCAST_MESSAGE_TITLE": "新しいメッセージ名:",
     "BROADCAST_MODAL_TITLE": "新しいメッセージ",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "メッセージ1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "メッセージ1",
+
+    "MOTION_RESET": "リセット",
+    "MOTION_MOVE_HOME": "家に移動",
+    "MOTION_MOVE_ORIGIN": "原点に移動",
+    "MOTION_MOVE_POSITION": "位置に移動 x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "仕事の原点を設定します"
   };
 
 Blockly.ScratchMsgs.locales["ja-Hira"] =
@@ -15168,7 +15204,13 @@ Blockly.ScratchMsgs.locales["ru"] =
     "NEW_BROADCAST_MESSAGE": "Новое сообщение",
     "NEW_BROADCAST_MESSAGE_TITLE": "Новое имя сообщения:",
     "BROADCAST_MODAL_TITLE": "Новое сообщение",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "сообщение1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "сообщение1",
+
+    "MOTION_RESET": "Сброс",
+    "MOTION_MOVE_HOME": "Перейти в дом",
+    "MOTION_MOVE_ORIGIN": "Перейти в начало",
+    "MOTION_MOVE_POSITION": "Перейти в положение x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "Установить начало работы"
   };
 
 Blockly.ScratchMsgs.locales["sr"] =
@@ -17745,8 +17787,8 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1",
 
     "MOTION_RESET": "重置",
-    "MOTION_MOVE_HOME": "移动到 home",
-    "MOTION_MOVE_ORIGIN": "移动到原点",
+    "MOTION_MOVE_HOME": "前往 home",
+    "MOTION_MOVE_ORIGIN": "前往工作原点",
     "MOTION_MOVE_POSITION": "移动到位置 x %1 y %2 z %3",
     "MOTION_SET_WORK_ORIGIN": "设置工作原点"
   };
@@ -18034,6 +18076,12 @@ Blockly.ScratchMsgs.locales["zh-tw"] =
     "NEW_BROADCAST_MESSAGE": "新的訊息",
     "NEW_BROADCAST_MESSAGE_TITLE": "新訊息的名稱",
     "BROADCAST_MODAL_TITLE": "新的訊息",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+
+    "MOTION_RESET": "重置",
+    "MOTION_MOVE_HOME": "前往 home",
+    "MOTION_MOVE_ORIGIN": "前往工作原點",
+    "MOTION_MOVE_POSITION": "移動到位置 x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "設置工作原點"
   };
 // End of combined translations
