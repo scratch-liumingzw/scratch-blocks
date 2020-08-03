@@ -8,7 +8,7 @@ goog.require('Blockly.ScratchMsgs');
 
 
 Blockly.ScratchMsgs.locales["ab"] =
-{
+  {
     "CONTROL_FOREVER": "инагӡалатәуп еснагь",
     "CONTROL_REPEAT": "инагӡалатәуп %1 - нтә",
     "CONTROL_IF": "%1 акәзар",
@@ -291,10 +291,10 @@ Blockly.ScratchMsgs.locales["ab"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Ацҳамҭа ахьӡ ҿыц:",
     "BROADCAST_MODAL_TITLE": "Ацҳамҭа ҿыц",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "ацҳамҭа1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["ar"] =
-{
+  {
     "CONTROL_FOREVER": "كرِّر باستمرار",
     "CONTROL_REPEAT": "كرِّر %1 مرة",
     "CONTROL_IF": "إذا %1",
@@ -577,10 +577,10 @@ Blockly.ScratchMsgs.locales["ar"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "اسم الرسالة الجديدة:",
     "BROADCAST_MODAL_TITLE": "رسالة جديدة",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "الرسالة 1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["am"] =
-{
+  {
     "CONTROL_FOREVER": "ለዘላለም",
     "CONTROL_REPEAT": "%1ን ድገም",
     "CONTROL_IF": "%1 ከሆነ",
@@ -863,10 +863,10 @@ Blockly.ScratchMsgs.locales["am"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "አዲስ የመልዕክት ስም፡",
     "BROADCAST_MODAL_TITLE": "አዲስ መልእክት",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "መልእክት1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["az"] =
-{
+  {
     "CONTROL_FOREVER": "həmişə",
     "CONTROL_REPEAT": "təkrarla %1 dəfə",
     "CONTROL_IF": "əgər %1, onda",
@@ -1149,10 +1149,10 @@ Blockly.ScratchMsgs.locales["az"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Yeni ismarıcın adı:",
     "BROADCAST_MODAL_TITLE": "Yeni ismarıc",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "ismarıc 1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["id"] =
-{
+  {
     "CONTROL_FOREVER": "selamanya",
     "CONTROL_REPEAT": "ulangi %1 kali",
     "CONTROL_IF": "jika %1 maka",
@@ -1435,10 +1435,10 @@ Blockly.ScratchMsgs.locales["id"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nama pesan baru:",
     "BROADCAST_MODAL_TITLE": "Pesan Baru",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "pesan1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["be"] =
-{
+  {
     "CONTROL_FOREVER": "заўжды",
     "CONTROL_REPEAT": "паўтарыць %1",
     "CONTROL_IF": "калі %1 , то",
@@ -1721,10 +1721,10 @@ Blockly.ScratchMsgs.locales["be"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Новае імя паведамлення:",
     "BROADCAST_MODAL_TITLE": "Новае паведамленне",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "паведамленне1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["bg"] =
-{
+  {
     "CONTROL_FOREVER": "forever",
     "CONTROL_REPEAT": "повтори %1",
     "CONTROL_IF": "ако %1 тогава",
@@ -2007,10 +2007,10 @@ Blockly.ScratchMsgs.locales["bg"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Име на новото съобщение:",
     "BROADCAST_MODAL_TITLE": "Ново съобщение",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "съобщение1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["ca"] =
-{
+  {
     "CONTROL_FOREVER": "per sempre",
     "CONTROL_REPEAT": "repeteix %1",
     "CONTROL_IF": "si %1 llavors",
@@ -2293,10 +2293,10 @@ Blockly.ScratchMsgs.locales["ca"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nou nom per al missatge:",
     "BROADCAST_MODAL_TITLE": "Missatge nou",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "missatge1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["cs"] =
-{
+  {
     "CONTROL_FOREVER": "opakuj stále",
     "CONTROL_REPEAT": "opakuj %1 krát",
     "CONTROL_IF": "když %1 tak",
@@ -2579,10 +2579,10 @@ Blockly.ScratchMsgs.locales["cs"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nový název zprávy:",
     "BROADCAST_MODAL_TITLE": "Nová zpráva",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "zpráva1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["cy"] =
-{
+  {
     "CONTROL_FOREVER": "am byth",
     "CONTROL_REPEAT": "ailadrodd %1",
     "CONTROL_IF": "os %1 yna",
@@ -2865,10 +2865,10 @@ Blockly.ScratchMsgs.locales["cy"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Enw neges newydd:",
     "BROADCAST_MODAL_TITLE": "Neges Newydd",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "neges1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["da"] =
-{
+  {
     "CONTROL_FOREVER": "for evigt",
     "CONTROL_REPEAT": "gentag %1 gange",
     "CONTROL_IF": "hvis %1 så",
@@ -3151,10 +3151,10 @@ Blockly.ScratchMsgs.locales["da"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Navn på ny besked:",
     "BROADCAST_MODAL_TITLE": "Ny besked",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "besked1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["de"] =
-{
+  {
     "CONTROL_FOREVER": "wiederhole fortlaufend",
     "CONTROL_REPEAT": "wiederhole %1 mal",
     "CONTROL_IF": "falls %1, dann",
@@ -3436,11 +3436,17 @@ Blockly.ScratchMsgs.locales["de"] =
     "NEW_BROADCAST_MESSAGE": "Neue Nachricht",
     "NEW_BROADCAST_MESSAGE_TITLE": "Neuer Nachrichtentext:",
     "BROADCAST_MODAL_TITLE": "Neue Nachricht",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "Nachricht1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "Nachricht1",
+
+    "MOTION_RESET": "Zurücksetzen",
+    "MOTION_MOVE_HOME": "Zurück zur Startseite",
+    "MOTION_MOVE_ORIGIN": "Zurück zum Ausgangspunkt",
+    "MOTION_MOVE_POSITION": "in Position bewegen x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "Arbeitsursprung einstellen"
+  };
 
 Blockly.ScratchMsgs.locales["et"] =
-{
+  {
     "CONTROL_FOREVER": "korda lõputult",
     "CONTROL_REPEAT": "korda %1 korda",
     "CONTROL_IF": "kui %1 siis",
@@ -3723,10 +3729,10 @@ Blockly.ScratchMsgs.locales["et"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Uue teate nimi:",
     "BROADCAST_MODAL_TITLE": "Uus teade",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "teade1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["el"] =
-{
+  {
     "CONTROL_FOREVER": "για πάντα",
     "CONTROL_REPEAT": "επανάλαβε %1",
     "CONTROL_IF": "εάν %1 τότε",
@@ -4009,10 +4015,10 @@ Blockly.ScratchMsgs.locales["el"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Όνομα νέου μηνύματος:",
     "BROADCAST_MODAL_TITLE": "Νέο μήνυμα",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "μήνυμα1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["en"] =
-{
+  {
     "CONTROL_FOREVER": "forever",
     "CONTROL_REPEAT": "repeat %1",
     "CONTROL_IF": "if %1 then",
@@ -4294,11 +4300,17 @@ Blockly.ScratchMsgs.locales["en"] =
     "NEW_BROADCAST_MESSAGE": "New message",
     "NEW_BROADCAST_MESSAGE_TITLE": "New message name:",
     "BROADCAST_MODAL_TITLE": "New Message",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+
+    "MOTION_RESET": "reset",
+    "MOTION_MOVE_HOME": "move home",
+    "MOTION_MOVE_ORIGIN": "move to origin",
+    "MOTION_MOVE_POSITION": "move to position x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "set work origin"
+  };
 
 Blockly.ScratchMsgs.locales["es"] =
-{
+  {
     "CONTROL_FOREVER": "por siempre",
     "CONTROL_REPEAT": "repetir %1",
     "CONTROL_IF": "si %1 entonces",
@@ -4580,11 +4592,17 @@ Blockly.ScratchMsgs.locales["es"] =
     "NEW_BROADCAST_MESSAGE": "Nuevo mensaje",
     "NEW_BROADCAST_MESSAGE_TITLE": "Nombre del mensaje:",
     "BROADCAST_MODAL_TITLE": "Nuevo Mensaje",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "mensaje1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "mensaje1",
+
+    "MOTION_RESET": "Reiniciar",
+    "MOTION_MOVE_HOME": "mover a Inicio",
+    "MOTION_MOVE_ORIGIN": "mover al origen",
+    "MOTION_MOVE_POSITION": "mover a la posición x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "establecer origen de trabajo"
+  };
 
 Blockly.ScratchMsgs.locales["es-419"] =
-{
+  {
     "CONTROL_FOREVER": "por siempre",
     "CONTROL_REPEAT": "repetir %1",
     "CONTROL_IF": "si %1 entonces",
@@ -4867,10 +4885,10 @@ Blockly.ScratchMsgs.locales["es-419"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nombre para el nuevo mensaje:",
     "BROADCAST_MODAL_TITLE": "Nuevo Mensaje",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "mensaje1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["eu"] =
-{
+  {
     "CONTROL_FOREVER": "etengabe",
     "CONTROL_REPEAT": "errepikatu %1 aldiz",
     "CONTROL_IF": "baldin %1 orduan",
@@ -5153,10 +5171,10 @@ Blockly.ScratchMsgs.locales["eu"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Mezu berriaren izena:",
     "BROADCAST_MODAL_TITLE": "Mezu berria",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "mezua1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["fa"] =
-{
+  {
     "CONTROL_FOREVER": "برای همیشه",
     "CONTROL_REPEAT": "تکرار کن %1",
     "CONTROL_IF": "اگر %1 آنگاه",
@@ -5439,10 +5457,10 @@ Blockly.ScratchMsgs.locales["fa"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "نام پیام جدید:",
     "BROADCAST_MODAL_TITLE": "پیام جدید",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "پیام 1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["fr"] =
-{
+  {
     "CONTROL_FOREVER": "répéter indéfiniment",
     "CONTROL_REPEAT": "répéter %1 fois",
     "CONTROL_IF": "si %1 alors",
@@ -5724,11 +5742,17 @@ Blockly.ScratchMsgs.locales["fr"] =
     "NEW_BROADCAST_MESSAGE": "Nouveau message",
     "NEW_BROADCAST_MESSAGE_TITLE": "Nom du nouveau message:",
     "BROADCAST_MODAL_TITLE": "Nouveau message",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+
+    "MOTION_RESET": "Réinitialiser",
+    "MOTION_MOVE_HOME": "Passer à l'accueil",
+    "MOTION_MOVE_ORIGIN": "Passer à l'origine",
+    "MOTION_MOVE_POSITION": "Passer à la position x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "Régler l'origine du travail"
+  };
 
 Blockly.ScratchMsgs.locales["ga"] =
-{
+  {
     "CONTROL_FOREVER": "go deo",
     "CONTROL_REPEAT": "déan %1 uair",
     "CONTROL_IF": "más %1 ansin",
@@ -6011,10 +6035,10 @@ Blockly.ScratchMsgs.locales["ga"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Ainm na teachtaireachta nua:",
     "BROADCAST_MODAL_TITLE": "Teachtaireacht Nua",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "teachtaireacht1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["gd"] =
-{
+  {
     "CONTROL_FOREVER": "gu buan",
     "CONTROL_REPEAT": "dèan seo %1 turas",
     "CONTROL_IF": "ma tha %1 a-rèiste",
@@ -6297,10 +6321,10 @@ Blockly.ScratchMsgs.locales["gd"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Ainm na teachdaireachd ùire:",
     "BROADCAST_MODAL_TITLE": "teachdaireachd ùr",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "teachdaireachd1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["gl"] =
-{
+  {
     "CONTROL_FOREVER": "para sempre",
     "CONTROL_REPEAT": "repetir %1",
     "CONTROL_IF": "se %1 entón",
@@ -6583,10 +6607,10 @@ Blockly.ScratchMsgs.locales["gl"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nome da nova mensaxe:",
     "BROADCAST_MODAL_TITLE": "Mensaxe nova",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "mensaxe1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["ko"] =
-{
+  {
     "CONTROL_FOREVER": "무한 반복하기",
     "CONTROL_REPEAT": "%1 번 반복하기",
     "CONTROL_IF": "만약 %1 (이)라면",
@@ -6868,11 +6892,17 @@ Blockly.ScratchMsgs.locales["ko"] =
     "NEW_BROADCAST_MESSAGE": "새로운 메시지",
     "NEW_BROADCAST_MESSAGE_TITLE": "새로운 메시지 이름:",
     "BROADCAST_MODAL_TITLE": "새로운 메시지",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "메시지1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "메시지1",
+
+    "MOTION_RESET": "다시 열림",
+    "MOTION_MOVE_HOME": "집까지 이사함",
+    "MOTION_MOVE_ORIGIN": "원점으로 이동함",
+    "MOTION_MOVE_POSITION": "위치에 이동함 x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "공작원점 설정",
+  };
 
 Blockly.ScratchMsgs.locales["hy"] =
-{
+  {
     "CONTROL_FOREVER": "կրկնել անվերջ",
     "CONTROL_REPEAT": "կրկնել %1 անգամ",
     "CONTROL_IF": "եթե %1 այլապես",
@@ -7155,10 +7185,10 @@ Blockly.ScratchMsgs.locales["hy"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Նոր հաղորդագրության անունը՝",
     "BROADCAST_MODAL_TITLE": "Նոր հաղորդագրություն",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "հաղորդագրություն1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["he"] =
-{
+  {
     "CONTROL_FOREVER": "לעולמים",
     "CONTROL_REPEAT": "חזור  %1 פעמים",
     "CONTROL_IF": "אם %1 אז",
@@ -7441,10 +7471,10 @@ Blockly.ScratchMsgs.locales["he"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "צור מסר חדש",
     "BROADCAST_MODAL_TITLE": "מסר חדש",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "מסר 1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["hr"] =
-{
+  {
     "CONTROL_FOREVER": "ponavljaj",
     "CONTROL_REPEAT": "ponovi %1",
     "CONTROL_IF": "ako %1 onda",
@@ -7727,10 +7757,10 @@ Blockly.ScratchMsgs.locales["hr"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Naziv nove poruke:",
     "BROADCAST_MODAL_TITLE": "Nova poruka",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "poruka1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["zu"] =
-{
+  {
     "CONTROL_FOREVER": "makwenzeke njalo ",
     "CONTROL_REPEAT": "phinda %1 ",
     "CONTROL_IF": "uma %1 bese",
@@ -8013,10 +8043,10 @@ Blockly.ScratchMsgs.locales["zu"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Igama lomyalezo elisha",
     "BROADCAST_MODAL_TITLE": "Umyalezo Omusha",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "umyalezo wokuqala"
-};
+  };
 
 Blockly.ScratchMsgs.locales["is"] =
-{
+  {
     "CONTROL_FOREVER": "endalaust",
     "CONTROL_REPEAT": "endurtaka %1 sinnum",
     "CONTROL_IF": "ef %1 þá",
@@ -8299,10 +8329,10 @@ Blockly.ScratchMsgs.locales["is"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nafn nýrra skilaboða",
     "BROADCAST_MODAL_TITLE": "Ný skilaboð",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "dæmiUmNafnÁSkilaboðum"
-};
+  };
 
 Blockly.ScratchMsgs.locales["it"] =
-{
+  {
     "CONTROL_FOREVER": "per sempre",
     "CONTROL_REPEAT": "ripeti %1  volte",
     "CONTROL_IF": "se %1 allora",
@@ -8584,11 +8614,17 @@ Blockly.ScratchMsgs.locales["it"] =
     "NEW_BROADCAST_MESSAGE": "Nuovo messaggio",
     "NEW_BROADCAST_MESSAGE_TITLE": "Nome del nuovo messaggio:",
     "BROADCAST_MODAL_TITLE": "Nuovo Messaggio",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "messaggio1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "messaggio1",
+
+    "MOTION_RESET": "Ripristina",
+    "MOTION_MOVE_HOME": "Muovi a casa",
+    "MOTION_MOVE_ORIGIN": "Muovi a origine",
+    "MOTION_MOVE_POSITION": "Muovi alla posizione x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "Imposta l'origine del lavoro"
+  };
 
 Blockly.ScratchMsgs.locales["ka"] =
-{
+  {
     "CONTROL_FOREVER": "მუდმივად",
     "CONTROL_REPEAT": "გაიმეორე %1ჯერ",
     "CONTROL_IF": "თუ %1 მაშინ",
@@ -8871,10 +8907,10 @@ Blockly.ScratchMsgs.locales["ka"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "ახალი შეტყობინების სახელი",
     "BROADCAST_MODAL_TITLE": "ახალი შეტყობინება",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "შეტყობინება1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["sw"] =
-{
+  {
     "CONTROL_FOREVER": "milele",
     "CONTROL_REPEAT": "rudia %1",
     "CONTROL_IF": "ikiwa %1 basi",
@@ -9157,10 +9193,10 @@ Blockly.ScratchMsgs.locales["sw"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Jina la ujumbe mpya:",
     "BROADCAST_MODAL_TITLE": "Ujumbe Mpya",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "ujumbe1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["ht"] =
-{
+  {
     "CONTROL_FOREVER": "pou toujou",
     "CONTROL_REPEAT": "repete %1",
     "CONTROL_IF": "si %1 ebyen",
@@ -9443,10 +9479,10 @@ Blockly.ScratchMsgs.locales["ht"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Non nouvo mesaj la:",
     "BROADCAST_MODAL_TITLE": "Nouvo Mesaj",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "mesaj1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["ku"] =
-{
+  {
     "CONTROL_FOREVER": "berdewamî",
     "CONTROL_REPEAT": "%1 caran dubare bike",
     "CONTROL_IF": "heke %1 be",
@@ -9729,10 +9765,10 @@ Blockly.ScratchMsgs.locales["ku"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Navê peyama nû:",
     "BROADCAST_MODAL_TITLE": "Peyama Nû",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "peyam1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["ckb"] =
-{
+  {
     "CONTROL_FOREVER": "بۆهەتایە",
     "CONTROL_REPEAT": "دوبارەکردنەوە %1",
     "CONTROL_IF": "ئەگەر %1 ئینجا",
@@ -10015,10 +10051,10 @@ Blockly.ScratchMsgs.locales["ckb"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "ناوی نامەی نوێی",
     "BROADCAST_MODAL_TITLE": "پەیامی نوێ",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "نامەی1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["lv"] =
-{
+  {
     "CONTROL_FOREVER": "nepārtraukti",
     "CONTROL_REPEAT": "atkārtot %1",
     "CONTROL_IF": "ja %1 tad",
@@ -10301,10 +10337,10 @@ Blockly.ScratchMsgs.locales["lv"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Jauns ziņas nosaukums:",
     "BROADCAST_MODAL_TITLE": "Jauna ziņa",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "ziņa1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["lt"] =
-{
+  {
     "CONTROL_FOREVER": "kartok be galo",
     "CONTROL_REPEAT": "kartok %1",
     "CONTROL_IF": "jeigu %1",
@@ -10587,10 +10623,10 @@ Blockly.ScratchMsgs.locales["lt"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nauja žinutė pavadinimu:",
     "BROADCAST_MODAL_TITLE": "Nauja žinutė",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "žinutė1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["hu"] =
-{
+  {
     "CONTROL_FOREVER": "mindig",
     "CONTROL_REPEAT": "ismételd %1",
     "CONTROL_IF": "ha %1 akkor",
@@ -10873,10 +10909,10 @@ Blockly.ScratchMsgs.locales["hu"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Új üzenet neve:",
     "BROADCAST_MODAL_TITLE": "Új üzenet",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "üzenet1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["mi"] =
-{
+  {
     "CONTROL_FOREVER": "mō ake, ake mahia",
     "CONTROL_REPEAT": "tōaitia %1",
     "CONTROL_IF": "mēnā %1 mahia",
@@ -11159,10 +11195,10 @@ Blockly.ScratchMsgs.locales["mi"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Ingoa karere hou:",
     "BROADCAST_MODAL_TITLE": "Karere Hou",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "karere1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["nl"] =
-{
+  {
     "CONTROL_FOREVER": "herhaal",
     "CONTROL_REPEAT": "herhaal %1",
     "CONTROL_IF": "als %1 dan",
@@ -11445,10 +11481,10 @@ Blockly.ScratchMsgs.locales["nl"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nieuwe berichtnaam:",
     "BROADCAST_MODAL_TITLE": "Nieuw bericht",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "bericht1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["ja"] =
-{
+  {
     "CONTROL_FOREVER": "ずっと",
     "CONTROL_REPEAT": "%1 回繰り返す",
     "CONTROL_IF": "もし %1 なら",
@@ -11730,11 +11766,17 @@ Blockly.ScratchMsgs.locales["ja"] =
     "NEW_BROADCAST_MESSAGE": "新しいメッセージ",
     "NEW_BROADCAST_MESSAGE_TITLE": "新しいメッセージ名:",
     "BROADCAST_MODAL_TITLE": "新しいメッセージ",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "メッセージ1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "メッセージ1",
+
+    "MOTION_RESET": "リセット",
+    "MOTION_MOVE_HOME": "家に移動",
+    "MOTION_MOVE_ORIGIN": "原点に移動",
+    "MOTION_MOVE_POSITION": "位置に移動 x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "仕事の原点を設定します"
+  };
 
 Blockly.ScratchMsgs.locales["ja-Hira"] =
-{
+  {
     "CONTROL_FOREVER": "ずっと",
     "CONTROL_REPEAT": "%1 かいくりかえす",
     "CONTROL_IF": "もし %1 なら",
@@ -12017,10 +12059,10 @@ Blockly.ScratchMsgs.locales["ja-Hira"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "あたらしいメッセージめい:",
     "BROADCAST_MODAL_TITLE": "あたらしいメッセージ",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "メッセージ1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["nb"] =
-{
+  {
     "CONTROL_FOREVER": "gjenta for alltid",
     "CONTROL_REPEAT": "gjenta %1 ganger",
     "CONTROL_IF": "hvis %1",
@@ -12303,10 +12345,10 @@ Blockly.ScratchMsgs.locales["nb"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Skriv ny  melding:",
     "BROADCAST_MODAL_TITLE": "Ny melding",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "melding1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["nn"] =
-{
+  {
     "CONTROL_FOREVER": "for alltid",
     "CONTROL_REPEAT": "gjenta %1 gongar",
     "CONTROL_IF": "viss %1",
@@ -12589,10 +12631,10 @@ Blockly.ScratchMsgs.locales["nn"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Namn på ny melding:",
     "BROADCAST_MODAL_TITLE": "Ny melding",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "melding1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["uz"] =
-{
+  {
     "CONTROL_FOREVER": "har doim",
     "CONTROL_REPEAT": "%1 marta takrorlash",
     "CONTROL_IF": "agar %1 bo'lsa",
@@ -12875,10 +12917,10 @@ Blockly.ScratchMsgs.locales["uz"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Yangi xabar nomi:",
     "BROADCAST_MODAL_TITLE": "Yangi xabar",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "xabar1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["th"] =
-{
+  {
     "CONTROL_FOREVER": "วนซ้ำตลอด",
     "CONTROL_REPEAT": "ทำซ้ำ %1",
     "CONTROL_IF": "ถ้า %1 แล้ว",
@@ -13161,10 +13203,10 @@ Blockly.ScratchMsgs.locales["th"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "ชื่อข้อความใหม่:",
     "BROADCAST_MODAL_TITLE": "ข้อความใหม่",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "ข้อความ1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["km"] =
-{
+  {
     "CONTROL_FOREVER": "រហូត",
     "CONTROL_REPEAT": "ធ្វើដដែលៗ %1 ដង",
     "CONTROL_IF": "ប្រសិន %1 នោះ",
@@ -13447,10 +13489,10 @@ Blockly.ScratchMsgs.locales["km"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "ឈ្មោះសារថ្មី៖",
     "BROADCAST_MODAL_TITLE": "សារថ្មី",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "សារ 1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["pl"] =
-{
+  {
     "CONTROL_FOREVER": "zawsze",
     "CONTROL_REPEAT": "powtarzaj %1",
     "CONTROL_IF": "jeżeli %1 to",
@@ -13733,10 +13775,10 @@ Blockly.ScratchMsgs.locales["pl"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nowa nazwa wiadomości:",
     "BROADCAST_MODAL_TITLE": "Nowa wiadomość",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "wiadomość1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["pt"] =
-{
+  {
     "CONTROL_FOREVER": "repete para sempre",
     "CONTROL_REPEAT": "repete %1 vezes",
     "CONTROL_IF": "se %1 , então",
@@ -14019,10 +14061,10 @@ Blockly.ScratchMsgs.locales["pt"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nome da nova mensagem:",
     "BROADCAST_MODAL_TITLE": "Nova Mensagem",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "Mensagem 1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["pt-br"] =
-{
+  {
     "CONTROL_FOREVER": "sempre",
     "CONTROL_REPEAT": "repita %1 vezes",
     "CONTROL_IF": "se %1 então",
@@ -14305,10 +14347,10 @@ Blockly.ScratchMsgs.locales["pt-br"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Novo nome de mensagem:",
     "BROADCAST_MODAL_TITLE": "Nova Mensagem",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "mensagem 1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["rap"] =
-{
+  {
     "CONTROL_FOREVER": "mo āŋa paurō te hora",
     "CONTROL_REPEAT": "haka ʾou %1",
     "CONTROL_IF": "eʾe %1 oira",
@@ -14591,10 +14633,10 @@ Blockly.ScratchMsgs.locales["rap"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "iŋoa o te papaʾi:",
     "BROADCAST_MODAL_TITLE": "parau apī",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "ki hāŋa1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["ro"] =
-{
+  {
     "CONTROL_FOREVER": "la infinit",
     "CONTROL_REPEAT": "repetă %1",
     "CONTROL_IF": "dacă %1 atunci",
@@ -14877,10 +14919,10 @@ Blockly.ScratchMsgs.locales["ro"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Numele mesajului",
     "BROADCAST_MODAL_TITLE": "Mesaj nou",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "mesaj1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["ru"] =
-{
+  {
     "CONTROL_FOREVER": "повторять всегда",
     "CONTROL_REPEAT": "повторить %1 раз",
     "CONTROL_IF": "если %1 , то",
@@ -15162,11 +15204,17 @@ Blockly.ScratchMsgs.locales["ru"] =
     "NEW_BROADCAST_MESSAGE": "Новое сообщение",
     "NEW_BROADCAST_MESSAGE_TITLE": "Новое имя сообщения:",
     "BROADCAST_MODAL_TITLE": "Новое сообщение",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "сообщение1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "сообщение1",
+
+    "MOTION_RESET": "Сброс",
+    "MOTION_MOVE_HOME": "Перейти в дом",
+    "MOTION_MOVE_ORIGIN": "Перейти в начало",
+    "MOTION_MOVE_POSITION": "Перейти в положение x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "Установить начало работы"
+  };
 
 Blockly.ScratchMsgs.locales["sr"] =
-{
+  {
     "CONTROL_FOREVER": "понављај заувек",
     "CONTROL_REPEAT": "понови %1",
     "CONTROL_IF": "ако је %1 онда",
@@ -15449,10 +15497,10 @@ Blockly.ScratchMsgs.locales["sr"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Име нове поруке:",
     "BROADCAST_MODAL_TITLE": "Нова порука",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "порука1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["sk"] =
-{
+  {
     "CONTROL_FOREVER": "opakuj stále",
     "CONTROL_REPEAT": "opakuj %1",
     "CONTROL_IF": "ak %1",
@@ -15735,10 +15783,10 @@ Blockly.ScratchMsgs.locales["sk"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Meno novej správy:",
     "BROADCAST_MODAL_TITLE": "Nová správa",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "správa1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["sl"] =
-{
+  {
     "CONTROL_FOREVER": "ponavljaj",
     "CONTROL_REPEAT": "ponovi %1 krat",
     "CONTROL_IF": "če %1 potem",
@@ -16021,10 +16069,10 @@ Blockly.ScratchMsgs.locales["sl"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Ime novega sporočila:",
     "BROADCAST_MODAL_TITLE": "Novo sporočilo",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "sporočilo1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["fi"] =
-{
+  {
     "CONTROL_FOREVER": "ikuisesti",
     "CONTROL_REPEAT": "toista %1 kertaa",
     "CONTROL_IF": "jos %1, niin",
@@ -16307,10 +16355,10 @@ Blockly.ScratchMsgs.locales["fi"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Uuden viestin nimi:",
     "BROADCAST_MODAL_TITLE": "Uusi viesti",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "viesti1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["sv"] =
-{
+  {
     "CONTROL_FOREVER": "för alltid",
     "CONTROL_REPEAT": "repetera %1",
     "CONTROL_IF": "om %1 då",
@@ -16593,10 +16641,10 @@ Blockly.ScratchMsgs.locales["sv"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Nytt namn på meddelande:",
     "BROADCAST_MODAL_TITLE": "Nytt meddelande",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "meddelande1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["vi"] =
-{
+  {
     "CONTROL_FOREVER": "liên tục",
     "CONTROL_REPEAT": "lặp lại %1",
     "CONTROL_IF": "nếu %1 thì",
@@ -16879,10 +16927,10 @@ Blockly.ScratchMsgs.locales["vi"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Tên thông báo mới:",
     "BROADCAST_MODAL_TITLE": "Tin nhắn mới",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "tin nhắn 1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["tr"] =
-{
+  {
     "CONTROL_FOREVER": "sürekli tekrarla",
     "CONTROL_REPEAT": "%1 defa tekrarla",
     "CONTROL_IF": "eğer %1 ise",
@@ -17165,10 +17213,10 @@ Blockly.ScratchMsgs.locales["tr"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Yeni haber adı:",
     "BROADCAST_MODAL_TITLE": "Yeni Haber",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "haber1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["uk"] =
-{
+  {
     "CONTROL_FOREVER": "завжди",
     "CONTROL_REPEAT": "повторити %1",
     "CONTROL_IF": "якщо %1 то",
@@ -17451,10 +17499,10 @@ Blockly.ScratchMsgs.locales["uk"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "Нове ім’я повідомлення:",
     "BROADCAST_MODAL_TITLE": "Нове повідомлення",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "повідомлення1"
-};
+  };
 
 Blockly.ScratchMsgs.locales["zh-cn"] =
-{
+  {
     "CONTROL_FOREVER": "重复执行",
     "CONTROL_REPEAT": "重复执行 %1 次",
     "CONTROL_IF": "如果 %1 那么",
@@ -17640,8 +17688,8 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "SENSING_ANSWER": "回答",
     "SENSING_KEYPRESSED": "按下 %1 键?",
     "SENSING_MOUSEDOWN": "按下鼠标?",
-    "SENSING_MOUSEX": "鼠标的x坐标",
-    "SENSING_MOUSEY": "鼠标的y坐标",
+    "SENSING_MOUSEX": "鼠标的 x 坐标",
+    "SENSING_MOUSEY": "鼠标的 y 坐标",
     "SENSING_SETDRAGMODE": "将拖动模式设为 %1",
     "SENSING_SETDRAGMODE_DRAGGABLE": "可拖动",
     "SENSING_SETDRAGMODE_NOTDRAGGABLE": "不可拖动",
@@ -17736,11 +17784,17 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "NEW_BROADCAST_MESSAGE": "新消息",
     "NEW_BROADCAST_MESSAGE_TITLE": "新消息的名称：",
     "BROADCAST_MODAL_TITLE": "新消息",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1",
+
+    "MOTION_RESET": "重置",
+    "MOTION_MOVE_HOME": "前往 home",
+    "MOTION_MOVE_ORIGIN": "前往工作原点",
+    "MOTION_MOVE_POSITION": "移动到位置 x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "设置工作原点"
+  };
 
 Blockly.ScratchMsgs.locales["zh-tw"] =
-{
+  {
     "CONTROL_FOREVER": "重複無限次",
     "CONTROL_REPEAT": "重複 %1 次",
     "CONTROL_IF": "如果 %1 那麼",
@@ -18022,6 +18076,12 @@ Blockly.ScratchMsgs.locales["zh-tw"] =
     "NEW_BROADCAST_MESSAGE": "新的訊息",
     "NEW_BROADCAST_MESSAGE_TITLE": "新訊息的名稱",
     "BROADCAST_MODAL_TITLE": "新的訊息",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
-};
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+
+    "MOTION_RESET": "重置",
+    "MOTION_MOVE_HOME": "前往 home",
+    "MOTION_MOVE_ORIGIN": "前往工作原點",
+    "MOTION_MOVE_POSITION": "移動到位置 x %1 y %2 z %3",
+    "MOTION_SET_WORK_ORIGIN": "設置工作原點"
+  };
 // End of combined translations
