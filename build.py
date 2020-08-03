@@ -1,4 +1,5 @@
 #!/usr/bin/python2.7
+# coding: utf-8
 # Compresses the core Blockly files into a single JavaScript file.
 #
 # Copyright 2012 Google Inc.
@@ -287,7 +288,7 @@ class Gen_compressed(threading.Thread):
     # Add Blockly.Colours for use of centralized colour bank
     filenames.append(os.path.join("core", "colours.js"))
     filenames.append(os.path.join("core", "constants.js"))
-    
+
     for filename in filenames:
       # Append filenames as false arguments the step before compiling will
       # either transform them into arguments for local or remote compilation
@@ -324,11 +325,20 @@ class Gen_compressed(threading.Thread):
 
       # Build the final args array by prepending google-closure-compiler to
       # dash_args and dropping any falsy members
+
       args = []
       for group in [["google-closure-compiler"], dash_args]:
-        args.extend(filter(lambda item: item, group))
-
-      proc = subprocess.Popen(args, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+         args.extend(filter(lambda item: item, group))
+     # print 'args V'
+     # print args
+     # print 'args n'
+      outfile = open("dash_args.txt","w+")
+      outfile.write("\n".join(args[11:]))
+      outfile.close()
+      args =  args[:11]
+      args.extend(['--flagfile','dash_args.txt'])
+      # print args
+      proc = subprocess.Popen(args, stdin=subprocess.PIPE, stdout=subprocess.PIPE,shell=True)
       (stdout, stderr) = proc.communicate()
 
       # Build the JSON response.
@@ -571,7 +581,9 @@ if __name__ == "__main__":
 
     # Sanity check the local compiler
     test_args = [closure_compiler, os.path.join("build", "test_input.js")]
-    test_proc = subprocess.Popen(test_args, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+
+
+    test_proc = subprocess.Popen(test_args, stdin=subprocess.PIPE, stdout=subprocess.PIPE,shell=True)
     (stdout, _) = test_proc.communicate()
     assert stdout == read(os.path.join("build", "test_expect.js"))
 
