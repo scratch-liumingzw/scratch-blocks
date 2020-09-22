@@ -259,6 +259,12 @@ Blockly.OUTPUT_SHAPE_SQUARE = 3;
  * @const
  */
 Blockly.Categories = {
+  "rs_motion": "rs_motion",
+  "rs_module": "rs_module",
+  "rs_settings": "rs_settings",
+  "rs_sensing": "rs_sensing",
+  "rs_sliding_rail": "rs_sliding_rail",
+  "rs_conveyor_belt": "rs_conveyor_belt",
   "motion": "motion",
   "looks": "looks",
   "sound": "sounds",

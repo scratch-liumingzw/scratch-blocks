@@ -360,3 +360,75 @@ Blockly.Msg.MOTION_MOVE_ORIGIN = 'move to origin';
 Blockly.Msg.MOTION_MOVE_POSITION = 'move to position x %1 y %2 z %3';
 Blockly.Msg.MOTION_SET_WORK_ORIGIN = 'set work origin';
 
+Blockly.Msg.MOTION_SAY_HELLO = 'say hello';
+Blockly.Msg.MOTION_MOVE_RELATIVE = 'move relative x %1 y %2 z %3';
+Blockly.Msg.MOTION_MOVE_RECTANGLE = 'move rectangle of left-top %1 %2 bottom-right %3 %4';
+Blockly.Msg.MOTION_MOVE_CIRCLE = 'move circle of center x %1 y %2 radius %3 mm';
+
+
+
+
+
+//rs motion
+Blockly.Msg.RS_MOTION_SAY_HELLO = 'say hello';
+Blockly.Msg.RS_MOTION_MOVE_HOME = 'move home';
+Blockly.Msg.RS_MOTION_MOVE_ORIGIN = 'move to origin';
+Blockly.Msg.RS_MOTION_MOVE_POSITION = 'move to position x %1 y %2 z %3';
+Blockly.Msg.RS_MOTION_MOVE_RELATIVE = 'move relative x %1 y %2 z %3';
+Blockly.Msg.RS_MOTION_MOVE_RECTANGLE = 'move rectangle of left-top %1 %2 bottom-right %3 %4';
+Blockly.Msg.RS_MOTION_MOVE_CIRCLE = 'move circle of center x %1 y %2 radius %3 mm';
+
+//rs module
+Blockly.Msg.RS_MODULE_AIR_PICKER = 'air picker %1';
+Blockly.Msg.RS_MODULE_SOFT_GRIPPER = 'soft gripper %1';
+Blockly.Msg.RS_MODULE_WRIST_ROTATE = 'wrist rotate %1 degree';
+
+Blockly.Msg.RS_MODULE_AIR_PICKER_PICK = 'pick';
+Blockly.Msg.RS_MODULE_AIR_PICKER_RELEASE = 'release';
+Blockly.Msg.RS_MODULE_AIR_PICKER_OFF = 'off';
+
+Blockly.Msg.RS_MODULE_SOFT_GRIPPER_GRIP = 'grip';
+Blockly.Msg.RS_MODULE_SOFT_GRIPPER_RELEASE = 'release';
+Blockly.Msg.RS_MODULE_SOFT_GRIPPER_NETURAL = 'neutral';
+Blockly.Msg.RS_MODULE_SOFT_GRIPPER_OFF = 'off';
+
+//rs setting
+Blockly.Msg.RS_SETTINGS_SET_MODULE = 'set module %1';
+Blockly.Msg.RS_SETTINGS_SET_SPEED = 'set speed %1 mm/s';
+Blockly.Msg.RS_SETTINGS_SET_ACCELERATION = 'set acceleration %1 degree/s²';
+Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE = 'set motion mode %1';
+Blockly.Msg.RS_SETTINGS_SET_WORK_ORIGIN = 'set work origin';
+
+Blockly.Msg.RS_SETTINGS_SET_MODULE_PEN_HOLDER = 'Pen Holder';
+Blockly.Msg.RS_SETTINGS_SET_MODULE_AIR_PICKER = 'Air Picker';
+Blockly.Msg.RS_SETTINGS_SET_MODULE_SOFT_GRIPPER = 'Soft Gripper';
+
+Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE_FAST = 'Fast';
+Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE_LINEAR = 'Linear';
+
+//rs sensing
+Blockly.Msg.RS_SENSING_CURRENT_POSITION = 'current position %1';
+Blockly.Msg.RS_SENSING_CURRENT_ACCELERATION = 'current acceleration';
+Blockly.Msg.RS_SENSING_CURRENT_SPEED = 'current speed';
+
+Blockly.Msg.RS_SENSING_CURRENT_POSITION_X = 'X';
+Blockly.Msg.RS_SENSING_CURRENT_POSITION_Y = 'Y';
+Blockly.Msg.RS_SENSING_CURRENT_POSITION_Z = 'Z';
+
+//rs sliding rail
+Blockly.Msg.RS_SLIDING_RAIL_SET_ACCELERATION = 'set sliding rail acceleration %1 mm/s²';
+Blockly.Msg.RS_SLIDING_RAIL_MOVE = 'move sliding rail %1 %2 mm at speed %3 mm/s';
+Blockly.Msg.RS_SLIDING_RAIL_STALL_GUARD_DETECTED = 'stall guard detected';
+Blockly.Msg.RS_SLIDING_RAIL_STOP = 'stop sliding rail';
+
+Blockly.Msg.RS_SLIDING_RAIL_MOVE_FORWARD = 'Forward';
+Blockly.Msg.RS_SLIDING_RAIL_MOVE_BACKWARD = 'Backward';
+
+//rs conveyor belt
+Blockly.Msg.RS_CONVEYOR_BELT_SET_ACCELERATION = 'set conveyor belt acceleration %1 mm/s²';
+Blockly.Msg.RS_CONVEYOR_BELT_MOVE = 'move conveyor belt %1 at speed %2 mm/s';
+Blockly.Msg.RS_CONVEYOR_BELT_STOP = 'stop conveyor belt';
+
+Blockly.Msg.RS_CONVEYOR_BELT_MOVE_FORWARD = 'Forward';
+Blockly.Msg.RS_CONVEYOR_BELT_MOVE_BACKWARD = 'Backward';
+
