@@ -353,21 +353,16 @@ Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
 
 
 //customize blocks for rotrics-studio-app
-//motion
-Blockly.Msg.MOTION_RESET = 'reset';
-Blockly.Msg.MOTION_MOVE_HOME = 'move to home';
-Blockly.Msg.MOTION_MOVE_ORIGIN = 'move to origin';
-Blockly.Msg.MOTION_MOVE_POSITION = 'move to position x %1 y %2 z %3';
-Blockly.Msg.MOTION_SET_WORK_ORIGIN = 'set work origin';
-
-Blockly.Msg.MOTION_SAY_HELLO = 'say hello';
-Blockly.Msg.MOTION_MOVE_RELATIVE = 'move relative x %1 y %2 z %3';
-Blockly.Msg.MOTION_MOVE_RECTANGLE = 'move rectangle of left-top %1 %2 bottom-right %3 %4';
-Blockly.Msg.MOTION_MOVE_CIRCLE = 'move circle of center x %1 y %2 radius %3 mm';
-
-
-
-
+// Blockly.Msg.MOTION_RESET = 'reset';
+// Blockly.Msg.MOTION_MOVE_HOME = 'move to home';
+// Blockly.Msg.MOTION_MOVE_ORIGIN = 'move to origin';
+// Blockly.Msg.MOTION_MOVE_POSITION = 'move to position x %1 y %2 z %3';
+// Blockly.Msg.MOTION_SET_WORK_ORIGIN = 'set work origin';
+//
+// Blockly.Msg.MOTION_SAY_HELLO = 'say hello';
+// Blockly.Msg.MOTION_MOVE_RELATIVE = 'move relative x %1 y %2 z %3';
+// Blockly.Msg.MOTION_MOVE_RECTANGLE = 'move rectangle of left-top %1 %2 bottom-right %3 %4';
+// Blockly.Msg.MOTION_MOVE_CIRCLE = 'move circle of center x %1 y %2 radius %3 mm';
 
 //rs motion
 Blockly.Msg.RS_MOTION_SAY_HELLO = 'say hello';
