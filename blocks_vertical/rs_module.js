@@ -15,9 +15,9 @@ Blockly.Blocks['RS_MODULE_AIR_PICKER'] = {
           "type": "field_dropdown",
           "name": "VALUE1",
           "options": [
-            [Blockly.Msg.RS_MODULE_AIR_PICKER_PICK, 'pick'],
-            [Blockly.Msg.RS_MODULE_AIR_PICKER_RELEASE, 'release'],
-            [Blockly.Msg.RS_MODULE_AIR_PICKER_OFF, 'off'],
+            [Blockly.Msg.RS_OPTION_PICK, 'pick'],
+            [Blockly.Msg.RS_OPTION_RELEASE, 'release'],
+            [Blockly.Msg.RS_OPTION_OFF, 'off'],
           ]
         }
       ],
@@ -39,10 +39,10 @@ Blockly.Blocks['RS_MODULE_SOFT_GRIPPER'] = {
           "type": "field_dropdown",
           "name": "VALUE1",
           "options": [
-            [Blockly.Msg.RS_MODULE_SOFT_GRIPPER_GRIP, 'grip'],
-            [Blockly.Msg.RS_MODULE_SOFT_GRIPPER_RELEASE, 'release'],
-            [Blockly.Msg.RS_MODULE_SOFT_GRIPPER_NETURAL, 'neutral'],
-            [Blockly.Msg.RS_MODULE_AIR_PICKER_OFF, 'off'],
+            [Blockly.Msg.RS_OPTION_GRIP, 'grip'],
+            [Blockly.Msg.RS_OPTION_RELEASE, 'release'],
+            [Blockly.Msg.RS_OPTION_NETURAL, 'neutral'],
+            [Blockly.Msg.RS_OPTION_OFF, 'off'],
           ]
         }
       ],

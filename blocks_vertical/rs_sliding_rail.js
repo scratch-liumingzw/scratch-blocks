@@ -34,8 +34,8 @@ Blockly.Blocks['RS_SLIDING_RAIL_MOVE'] = {
           "type": "field_dropdown",
           "name": "VALUE1",
           "options": [
-            [Blockly.Msg.RS_SLIDING_RAIL_MOVE_FORWARD, 'Forward'],
-            [Blockly.Msg.RS_SLIDING_RAIL_MOVE_BACKWARD, 'Backward'],
+            [Blockly.Msg.RS_OPTION_FORWARD, 'Forward'],
+            [Blockly.Msg.RS_OPTION_BACKWARD, 'Backward'],
           ]
         },
         {

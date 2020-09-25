@@ -370,45 +370,25 @@ Blockly.Msg.RS_MOTION_MOVE_HOME = 'move home';
 Blockly.Msg.RS_MOTION_MOVE_ORIGIN = 'move to origin';
 Blockly.Msg.RS_MOTION_MOVE_POSITION = 'move to position x %1 y %2 z %3';
 Blockly.Msg.RS_MOTION_MOVE_RELATIVE = 'move relative x %1 y %2 z %3';
-Blockly.Msg.RS_MOTION_MOVE_RECTANGLE = 'move rectangle of left-top %1 %2 bottom-right %3 %4';
-Blockly.Msg.RS_MOTION_MOVE_CIRCLE = 'move circle of center x %1 y %2 radius %3 mm';
+Blockly.Msg.RS_MOTION_MOVE_RECTANGLE = 'move rectangle at %1 of width %2 mm height %3 mm';
+Blockly.Msg.RS_MOTION_MOVE_CIRCLE = 'move circle at %1 radius %2 mm';
 
 //rs module
 Blockly.Msg.RS_MODULE_AIR_PICKER = 'air picker %1';
 Blockly.Msg.RS_MODULE_SOFT_GRIPPER = 'soft gripper %1';
 Blockly.Msg.RS_MODULE_WRIST_ROTATE = 'wrist rotate %1 degree';
 
-Blockly.Msg.RS_MODULE_AIR_PICKER_PICK = 'pick';
-Blockly.Msg.RS_MODULE_AIR_PICKER_RELEASE = 'release';
-Blockly.Msg.RS_MODULE_AIR_PICKER_OFF = 'off';
-
-Blockly.Msg.RS_MODULE_SOFT_GRIPPER_GRIP = 'grip';
-Blockly.Msg.RS_MODULE_SOFT_GRIPPER_RELEASE = 'release';
-Blockly.Msg.RS_MODULE_SOFT_GRIPPER_NETURAL = 'neutral';
-Blockly.Msg.RS_MODULE_SOFT_GRIPPER_OFF = 'off';
-
 //rs setting
 Blockly.Msg.RS_SETTINGS_SET_MODULE = 'set module %1';
 Blockly.Msg.RS_SETTINGS_SET_SPEED = 'set speed %1 mm/s';
-Blockly.Msg.RS_SETTINGS_SET_ACCELERATION = 'set acceleration %1 degree/s²';
+Blockly.Msg.RS_SETTINGS_SET_ACCELERATION = 'set acceleration %1 %2 degree/s²';
 Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE = 'set motion mode %1';
 Blockly.Msg.RS_SETTINGS_SET_WORK_ORIGIN = 'set work origin';
 
-Blockly.Msg.RS_SETTINGS_SET_MODULE_PEN_HOLDER = 'Pen Holder';
-Blockly.Msg.RS_SETTINGS_SET_MODULE_AIR_PICKER = 'Air Picker';
-Blockly.Msg.RS_SETTINGS_SET_MODULE_SOFT_GRIPPER = 'Soft Gripper';
-
-Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE_FAST = 'Fast';
-Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE_LINEAR = 'Linear';
-
 //rs sensing
 Blockly.Msg.RS_SENSING_CURRENT_POSITION = 'current position %1';
-Blockly.Msg.RS_SENSING_CURRENT_ACCELERATION = 'current acceleration';
+Blockly.Msg.RS_SENSING_CURRENT_ACCELERATION = 'current acceleration %1';
 Blockly.Msg.RS_SENSING_CURRENT_SPEED = 'current speed';
-
-Blockly.Msg.RS_SENSING_CURRENT_POSITION_X = 'X';
-Blockly.Msg.RS_SENSING_CURRENT_POSITION_Y = 'Y';
-Blockly.Msg.RS_SENSING_CURRENT_POSITION_Z = 'Z';
 
 //rs sliding rail
 Blockly.Msg.RS_SLIDING_RAIL_SET_ACCELERATION = 'set sliding rail acceleration %1 mm/s²';
@@ -416,14 +396,46 @@ Blockly.Msg.RS_SLIDING_RAIL_MOVE = 'move sliding rail %1 %2 mm at speed %3 mm/s'
 Blockly.Msg.RS_SLIDING_RAIL_STALL_GUARD_DETECTED = 'stall guard detected';
 Blockly.Msg.RS_SLIDING_RAIL_STOP = 'stop sliding rail';
 
-Blockly.Msg.RS_SLIDING_RAIL_MOVE_FORWARD = 'Forward';
-Blockly.Msg.RS_SLIDING_RAIL_MOVE_BACKWARD = 'Backward';
-
 //rs conveyor belt
 Blockly.Msg.RS_CONVEYOR_BELT_SET_ACCELERATION = 'set conveyor belt acceleration %1 mm/s²';
 Blockly.Msg.RS_CONVEYOR_BELT_MOVE = 'move conveyor belt %1 at speed %2 mm/s';
 Blockly.Msg.RS_CONVEYOR_BELT_STOP = 'stop conveyor belt';
 
-Blockly.Msg.RS_CONVEYOR_BELT_MOVE_FORWARD = 'Forward';
-Blockly.Msg.RS_CONVEYOR_BELT_MOVE_BACKWARD = 'Backward';
+//rs option
+//anchor
+Blockly.Msg.RS_OPTION_LEFT_TOP = 'left-top';
+Blockly.Msg.RS_OPTION_LEFT_BOTTOM = 'left-bottom';
+Blockly.Msg.RS_OPTION_RIGHT_TOP = 'right-top';
+Blockly.Msg.RS_OPTION_RIGHT_BOTTOM = 'right-bottom';
+Blockly.Msg.RS_OPTION_LEFT = 'left';
+Blockly.Msg.RS_OPTION_RIGHT = 'right';
+Blockly.Msg.RS_OPTION_TOP = 'top';
+Blockly.Msg.RS_OPTION_BOTTOM = 'bottom';
 
+//module status
+Blockly.Msg.RS_OPTION_PICK = 'pick';
+Blockly.Msg.RS_OPTION_RELEASE = 'release';
+Blockly.Msg.RS_OPTION_OFF = 'off';
+Blockly.Msg.RS_OPTION_NETURAL = 'neutral';
+Blockly.Msg.RS_OPTION_GRIP = 'grip';
+
+//module type
+Blockly.Msg.RS_OPTION_PEN_HOLDER = 'Pen Holder';
+Blockly.Msg.RS_OPTION_AIR_PICKER = 'Air Picker';
+Blockly.Msg.RS_OPTION_SOFT_GRIPPER = 'Soft Gripper';
+
+//motion mode
+Blockly.Msg.RS_OPTION_FAST = 'Fast';
+Blockly.Msg.RS_OPTION_LINEAR = 'Linear';
+
+//direction
+Blockly.Msg.RS_OPTION_FORWARD = 'Forward';
+Blockly.Msg.RS_OPTION_BACKWARD = 'Backward';
+
+Blockly.Msg.RS_OPTION_X = 'X';
+Blockly.Msg.RS_OPTION_Y = 'Y';
+Blockly.Msg.RS_OPTION_Z = 'Z';
+
+Blockly.Msg.RS_OPTION_PRINTING = 'Printing';
+Blockly.Msg.RS_OPTION_RETRACT = 'Retract';
+Blockly.Msg.RS_OPTION_TRAVEL = 'Travel';
