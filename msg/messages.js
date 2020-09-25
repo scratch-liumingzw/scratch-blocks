@@ -397,7 +397,6 @@ Blockly.Msg.RS_SLIDING_RAIL_STALL_GUARD_DETECTED = 'stall guard detected';
 Blockly.Msg.RS_SLIDING_RAIL_STOP = 'stop sliding rail';
 
 //rs conveyor belt
-Blockly.Msg.RS_CONVEYOR_BELT_SET_ACCELERATION = 'set conveyor belt acceleration %1 mm/s²';
 Blockly.Msg.RS_CONVEYOR_BELT_MOVE = 'move conveyor belt %1 at speed %2 mm/s';
 Blockly.Msg.RS_CONVEYOR_BELT_STOP = 'stop conveyor belt';
 

@@ -6,25 +6,6 @@ goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
-Blockly.Blocks['RS_CONVEYOR_BELT_SET_ACCELERATION'] = {
-  init: function () {
-    this.jsonInit({
-      "message0": Blockly.Msg.RS_CONVEYOR_BELT_SET_ACCELERATION,
-      "args0": [
-        {
-          "type": "input_value",
-          "name": "VALUE1"
-        }
-      ],
-      "category": Blockly.Categories.rs_conveyor_belt,
-      "extensions": ["shape_statement"],
-      "colour": Blockly.Colours.rs_conveyor_belt.primary,
-      "colourSecondary": Blockly.Colours.rs_conveyor_belt.secondary,
-      "colourTertiary": Blockly.Colours.rs_conveyor_belt.tertiary
-    });
-  }
-};
-
 Blockly.Blocks['RS_CONVEYOR_BELT_MOVE'] = {
   init: function () {
     this.jsonInit({
