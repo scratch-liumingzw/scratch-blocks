@@ -367,7 +367,7 @@ Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
 //rs motion
 Blockly.Msg.RS_MOTION_SAY_HELLO = 'say hello';
 Blockly.Msg.RS_MOTION_MOVE_HOME = 'move home';
-Blockly.Msg.RS_MOTION_MOVE_ORIGIN = 'move to origin';
+Blockly.Msg.RS_MOTION_MOVE_ORIGIN = 'move to work origin';
 Blockly.Msg.RS_MOTION_MOVE_POSITION = 'move to position x %1 y %2 z %3';
 Blockly.Msg.RS_MOTION_MOVE_RELATIVE = 'move relative x %1 y %2 z %3';
 Blockly.Msg.RS_MOTION_MOVE_RECTANGLE = 'move rectangle at %1 of width %2 mm height %3 mm';
