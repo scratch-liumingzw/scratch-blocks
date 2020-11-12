@@ -393,6 +393,7 @@ Blockly.Msg.RS_SENSING_CURRENT_SPEED = 'current speed';
 //rs sliding rail
 Blockly.Msg.RS_SLIDING_RAIL_SET_ACCELERATION = 'set sliding rail acceleration %1 mm/s²';
 Blockly.Msg.RS_SLIDING_RAIL_MOVE = 'move sliding rail %1 %2 mm at speed %3 mm/s';
+Blockly.Msg.RS_SLIDING_RAIL_MOVE_TO_ORIGIN = 'move sliding rail to origin';
 Blockly.Msg.RS_SLIDING_RAIL_STOP = 'stop sliding rail';
 
 //rs conveyor belt

@@ -56,6 +56,19 @@ Blockly.Blocks['RS_SLIDING_RAIL_MOVE'] = {
   }
 };
 
+Blockly.Blocks['RS_SLIDING_RAIL_MOVE_TO_ORIGIN'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": Blockly.Msg.RS_SLIDING_RAIL_MOVE_TO_ORIGIN,
+      "category": Blockly.Categories.rs_sliding_rail,
+      "extensions": ["shape_statement"],
+      "colour": Blockly.Colours.rs_sliding_rail.primary,
+      "colourSecondary": Blockly.Colours.rs_sliding_rail.secondary,
+      "colourTertiary": Blockly.Colours.rs_sliding_rail.tertiary
+    });
+  }
+};
+
 Blockly.Blocks['RS_SLIDING_RAIL_STOP'] = {
   init: function () {
     this.jsonInit({
