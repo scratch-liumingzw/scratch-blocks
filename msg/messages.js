@@ -372,6 +372,7 @@ Blockly.Msg.RS_MOTION_MOVE_POSITION = 'move to position x %1 y %2 z %3';
 Blockly.Msg.RS_MOTION_MOVE_RELATIVE = 'move relative x %1 y %2 z %3';
 Blockly.Msg.RS_MOTION_MOVE_RECTANGLE = 'move rectangle at %1 of width %2 mm height %3 mm';
 Blockly.Msg.RS_MOTION_MOVE_CIRCLE = 'move circle at %1 radius %2 mm';
+Blockly.Msg.RS_MOTION_ROTATE_WRIST = 'rotate wrist %1 %2 degree';
 
 //rs module
 Blockly.Msg.RS_MODULE_AIR_PICKER = 'air picker %1';
@@ -430,6 +431,8 @@ Blockly.Msg.RS_OPTION_LINEAR = 'Linear';
 //direction
 Blockly.Msg.RS_OPTION_FORWARD = 'Forward';
 Blockly.Msg.RS_OPTION_BACKWARD = 'Backward';
+Blockly.Msg.RS_OPTION_CLOCKWISE = 'clockwise';
+Blockly.Msg.RS_OPTION_ANTICLOCKWISE = 'anticlockwise';
 
 Blockly.Msg.RS_OPTION_X = 'X';
 Blockly.Msg.RS_OPTION_Y = 'Y';

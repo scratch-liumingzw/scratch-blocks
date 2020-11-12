@@ -141,3 +141,27 @@ Blockly.Blocks['RS_MOTION_MOVE_CIRCLE'] = {
     });
   }
 };
+
+Blockly.Blocks['RS_MOTION_ROTATE_WRIST'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": Blockly.Msg.RS_MOTION_ROTATE_WRIST,
+      "args0": [
+        {
+          "type": "field_dropdown",
+          "name": "VALUE1",
+          "options": [
+            [Blockly.Msg.RS_OPTION_CLOCKWISE, 'clockwise'],
+            [Blockly.Msg.RS_OPTION_ANTICLOCKWISE, 'anticlockwise']
+          ]
+        },
+        {
+          "type": "input_value",
+          "name": "VALUE2"
+        }
+      ],
+      "category": Blockly.Categories.rs_motion,
+      "extensions": ["colours_motion", "shape_statement"]
+    });
+  }
+};
