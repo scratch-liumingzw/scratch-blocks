@@ -84,7 +84,7 @@ Blockly.Blocks['RS_MOTION_MOVE_RELATIVE'] = {
   }
 };
 
-//TODO: 增加参数，device防止的方向
+//TODO: 增加参数，img标识device放置的方向
 Blockly.Blocks['RS_MOTION_MOVE_RECTANGLE'] = {
   init: function () {
     this.jsonInit({
@@ -115,7 +115,7 @@ Blockly.Blocks['RS_MOTION_MOVE_RECTANGLE'] = {
   }
 };
 
-//TODO: 增加参数，device防止的方向
+//TODO: 增加参数，img标识device放置的方向
 Blockly.Blocks['RS_MOTION_MOVE_CIRCLE'] = {
   init: function () {
     this.jsonInit({
