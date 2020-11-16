@@ -377,7 +377,6 @@ Blockly.Msg.RS_MOTION_ROTATE_WRIST = 'rotate wrist %1 %2 degree';
 //rs module
 Blockly.Msg.RS_MODULE_AIR_PICKER = 'air picker %1';
 Blockly.Msg.RS_MODULE_SOFT_GRIPPER = 'soft gripper %1';
-Blockly.Msg.RS_MODULE_WRIST_ROTATE = 'wrist rotate %1 degree';
 
 //rs setting
 Blockly.Msg.RS_SETTINGS_SET_MODULE = 'set module %1';

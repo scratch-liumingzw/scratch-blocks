@@ -54,22 +54,3 @@ Blockly.Blocks['RS_MODULE_SOFT_GRIPPER'] = {
     });
   }
 };
-
-Blockly.Blocks['RS_MODULE_WRIST_ROTATE'] = {
-  init: function () {
-    this.jsonInit({
-      "message0": Blockly.Msg.RS_MODULE_WRIST_ROTATE,
-      "args0": [
-        {
-          "type": "input_value",
-          "name": "VALUE1"
-        }
-      ],
-      "category": Blockly.Categories.rs_module,
-      "extensions": ["shape_statement"],
-      "colour": Blockly.Colours.rs_module.primary,
-      "colourSecondary": Blockly.Colours.rs_module.secondary,
-      "colourTertiary": Blockly.Colours.rs_module.tertiary
-    });
-  }
-};
