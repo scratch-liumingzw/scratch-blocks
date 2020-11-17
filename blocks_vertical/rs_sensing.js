@@ -15,9 +15,9 @@ Blockly.Blocks['RS_SENSING_CURRENT_POSITION'] = {
           "type": "field_dropdown",
           "name": "VALUE1",
           "options": [
-            [Blockly.Msg.RS_OPTION_X, 'X'],
-            [Blockly.Msg.RS_OPTION_Y, 'Y'],
-            [Blockly.Msg.RS_OPTION_Z, 'Z'],
+            [Blockly.Msg.RS_OPTION_X, 'x'],
+            [Blockly.Msg.RS_OPTION_Y, 'y'],
+            [Blockly.Msg.RS_OPTION_Z, 'z'],
           ]
         }
       ],
@@ -36,9 +36,9 @@ Blockly.Blocks['RS_SENSING_CURRENT_ACCELERATION'] = {
           "type": "field_dropdown",
           "name": "VALUE1",
           "options": [
-            [Blockly.Msg.RS_OPTION_PRINTING, 'Printing'],
-            [Blockly.Msg.RS_OPTION_RETRACT, 'Retract'],
-            [Blockly.Msg.RS_OPTION_TRAVEL, 'Travel'],
+            [Blockly.Msg.RS_OPTION_PRINTING, 'printing'],
+            [Blockly.Msg.RS_OPTION_RETRACT, 'retract'],
+            [Blockly.Msg.RS_OPTION_TRAVEL, 'travel'],
           ]
         }
       ],

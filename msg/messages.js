@@ -351,19 +351,6 @@ Blockly.Msg.NEW_BROADCAST_MESSAGE_TITLE = 'New message name:';
 Blockly.Msg.BROADCAST_MODAL_TITLE = 'New Message';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
 
-
-//customize blocks for rotrics-studio-app
-// Blockly.Msg.MOTION_RESET = 'reset';
-// Blockly.Msg.MOTION_MOVE_HOME = 'move to home';
-// Blockly.Msg.MOTION_MOVE_ORIGIN = 'move to origin';
-// Blockly.Msg.MOTION_MOVE_POSITION = 'move to position x %1 y %2 z %3';
-// Blockly.Msg.MOTION_SET_WORK_ORIGIN = 'set work origin';
-//
-// Blockly.Msg.MOTION_SAY_HELLO = 'say hello';
-// Blockly.Msg.MOTION_MOVE_RELATIVE = 'move relative x %1 y %2 z %3';
-// Blockly.Msg.MOTION_MOVE_RECTANGLE = 'move rectangle of left-top %1 %2 bottom-right %3 %4';
-// Blockly.Msg.MOTION_MOVE_CIRCLE = 'move circle of center x %1 y %2 radius %3 mm';
-
 //rs motion
 Blockly.Msg.RS_MOTION_SAY_HELLO = 'say hello';
 Blockly.Msg.RS_MOTION_MOVE_HOME = 'move home';
@@ -381,7 +368,7 @@ Blockly.Msg.RS_MODULE_SOFT_GRIPPER = 'soft gripper %1';
 //rs setting
 Blockly.Msg.RS_SETTINGS_SET_MODULE = 'set module %1';
 Blockly.Msg.RS_SETTINGS_SET_SPEED = 'set speed %1 mm/s';
-Blockly.Msg.RS_SETTINGS_SET_ACCELERATION = 'set acceleration %1 %2 degree/s²';
+Blockly.Msg.RS_SETTINGS_SET_ACCELERATION = 'set acceleration %1 %2 mm/s²';
 Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE = 'set motion mode %1';
 Blockly.Msg.RS_SETTINGS_SET_WORK_ORIGIN = 'set work origin';
 
@@ -419,24 +406,24 @@ Blockly.Msg.RS_OPTION_NETURAL = 'neutral';
 Blockly.Msg.RS_OPTION_GRIP = 'grip';
 
 //module type
-Blockly.Msg.RS_OPTION_PEN_HOLDER = 'Pen Holder';
-Blockly.Msg.RS_OPTION_AIR_PICKER = 'Air Picker';
-Blockly.Msg.RS_OPTION_SOFT_GRIPPER = 'Soft Gripper';
+Blockly.Msg.RS_OPTION_PEN_HOLDER = 'pen holder';
+Blockly.Msg.RS_OPTION_AIR_PICKER = 'air picker';
+Blockly.Msg.RS_OPTION_SOFT_GRIPPER = 'soft gripper';
 
 //motion mode
-Blockly.Msg.RS_OPTION_FAST = 'Fast';
-Blockly.Msg.RS_OPTION_LINEAR = 'Linear';
+Blockly.Msg.RS_OPTION_FAST = 'fast';
+Blockly.Msg.RS_OPTION_LINEAR = 'linear';
 
 //direction
-Blockly.Msg.RS_OPTION_FORWARD = 'Forward';
-Blockly.Msg.RS_OPTION_BACKWARD = 'Backward';
+Blockly.Msg.RS_OPTION_FORWARD = 'forward';
+Blockly.Msg.RS_OPTION_BACKWARD = 'backward';
 Blockly.Msg.RS_OPTION_CLOCKWISE = 'clockwise';
 Blockly.Msg.RS_OPTION_ANTICLOCKWISE = 'anticlockwise';
 
-Blockly.Msg.RS_OPTION_X = 'X';
-Blockly.Msg.RS_OPTION_Y = 'Y';
-Blockly.Msg.RS_OPTION_Z = 'Z';
+Blockly.Msg.RS_OPTION_X = 'x';
+Blockly.Msg.RS_OPTION_Y = 'y';
+Blockly.Msg.RS_OPTION_Z = 'z';
 
-Blockly.Msg.RS_OPTION_PRINTING = 'Printing';
-Blockly.Msg.RS_OPTION_RETRACT = 'Retract';
-Blockly.Msg.RS_OPTION_TRAVEL = 'Travel';
+Blockly.Msg.RS_OPTION_PRINTING = 'printing';
+Blockly.Msg.RS_OPTION_RETRACT = 'retract';
+Blockly.Msg.RS_OPTION_TRAVEL = 'travel';

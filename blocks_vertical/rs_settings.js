@@ -15,9 +15,9 @@ Blockly.Blocks['RS_SETTINGS_SET_MODULE'] = {
           "type": "field_dropdown",
           "name": "VALUE1",
           "options": [
-            [Blockly.Msg.RS_OPTION_PEN_HOLDER, 'Pen Holder'],
-            [Blockly.Msg.RS_OPTION_AIR_PICKER, 'Air Picker'],
-            [Blockly.Msg.RS_OPTION_SOFT_GRIPPER, 'Soft Gripper'],
+            [Blockly.Msg.RS_OPTION_PEN_HOLDER, 'pen holder'],
+            [Blockly.Msg.RS_OPTION_AIR_PICKER, 'air picker'],
+            [Blockly.Msg.RS_OPTION_SOFT_GRIPPER, 'soft gripper'],
           ]
         }
       ],
@@ -58,9 +58,9 @@ Blockly.Blocks['RS_SETTINGS_SET_ACCELERATION'] = {
           "type": "field_dropdown",
           "name": "VALUE1",
           "options": [
-            [Blockly.Msg.RS_OPTION_PRINTING, 'Printing'],
-            [Blockly.Msg.RS_OPTION_RETRACT, 'Retract'],
-            [Blockly.Msg.RS_OPTION_TRAVEL, 'Travel'],
+            [Blockly.Msg.RS_OPTION_PRINTING, 'printing'],
+            [Blockly.Msg.RS_OPTION_RETRACT, 'retract'],
+            [Blockly.Msg.RS_OPTION_TRAVEL, 'travel'],
           ]
         },
         {
@@ -86,8 +86,8 @@ Blockly.Blocks['RS_SETTINGS_SET_MOTION_MODE'] = {
           "type": "field_dropdown",
           "name": "VALUE1",
           "options": [
-            [Blockly.Msg.RS_OPTION_FAST, 'Fast'],
-            [Blockly.Msg.RS_OPTION_LINEAR, 'Linear'],
+            [Blockly.Msg.RS_OPTION_FAST, 'fast'],
+            [Blockly.Msg.RS_OPTION_LINEAR, 'linear'],
           ]
         }
       ],
