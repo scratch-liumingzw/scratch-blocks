@@ -367,7 +367,7 @@ Blockly.Msg.RS_MODULE_SOFT_GRIPPER = 'soft gripper %1';
 
 //rs setting
 Blockly.Msg.RS_SETTINGS_SET_MODULE = 'set module %1';
-Blockly.Msg.RS_SETTINGS_SET_SPEED = 'set speed %1 mm/s';
+Blockly.Msg.RS_SETTINGS_SET_SPEED = 'set speed %1 mm/min';
 Blockly.Msg.RS_SETTINGS_SET_ACCELERATION = 'set acceleration %1 %2 mm/s²';
 Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE = 'set motion mode %1';
 Blockly.Msg.RS_SETTINGS_SET_WORK_ORIGIN = 'set work origin';
@@ -375,16 +375,16 @@ Blockly.Msg.RS_SETTINGS_SET_WORK_ORIGIN = 'set work origin';
 //rs sensing
 Blockly.Msg.RS_SENSING_CURRENT_POSITION = 'current position %1';
 Blockly.Msg.RS_SENSING_CURRENT_ACCELERATION = 'current acceleration %1';
-Blockly.Msg.RS_SENSING_CURRENT_SPEED = 'current speed';
+Blockly.Msg.RS_SENSING_CURRENT_SPEED = 'current speed %1 mm/min';
 
 //rs sliding rail
 Blockly.Msg.RS_SLIDING_RAIL_SET_ACCELERATION = 'set sliding rail acceleration %1 mm/s²';
-Blockly.Msg.RS_SLIDING_RAIL_MOVE = 'move sliding rail %1 %2 mm at speed %3 mm/s';
+Blockly.Msg.RS_SLIDING_RAIL_MOVE = 'move sliding rail %1 %2 mm at speed %3 mm/min';
 Blockly.Msg.RS_SLIDING_RAIL_MOVE_TO_ORIGIN = 'move sliding rail to origin';
 Blockly.Msg.RS_SLIDING_RAIL_STOP = 'stop sliding rail';
 
 //rs conveyor belt
-Blockly.Msg.RS_CONVEYOR_BELT_MOVE = 'move conveyor belt %1 at speed %2 mm/s';
+Blockly.Msg.RS_CONVEYOR_BELT_MOVE = 'move conveyor belt %1 at speed %2 mm/min';
 Blockly.Msg.RS_CONVEYOR_BELT_STOP = 'stop conveyor belt';
 
 //rs option
