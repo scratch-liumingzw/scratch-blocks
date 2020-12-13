@@ -351,7 +351,14 @@ Blockly.Msg.NEW_BROADCAST_MESSAGE_TITLE = 'New message name:';
 Blockly.Msg.BROADCAST_MODAL_TITLE = 'New Message';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
 
-//rs motion
+// for Rotrics Studio App
+// Category labels
+Blockly.Msg.CATEGORY_RS_FRONT_END = 'Front End';
+Blockly.Msg.CATEGORY_RS_SETTINGS = 'Settings';
+Blockly.Msg.CATEGORY_RS_SLIDING_RAIL = 'Sliding Rail';
+Blockly.Msg.CATEGORY_RS_CONVEYOR_BELT = 'Conveyor Belt';
+
+// rs motion
 Blockly.Msg.RS_MOTION_SAY_HELLO = 'say hello';
 Blockly.Msg.RS_MOTION_MOVE_HOME = 'move home';
 Blockly.Msg.RS_MOTION_MOVE_ORIGIN = 'move to work origin';
@@ -361,34 +368,34 @@ Blockly.Msg.RS_MOTION_MOVE_RECTANGLE = 'move rectangle at %1 of width %2 mm heig
 Blockly.Msg.RS_MOTION_MOVE_CIRCLE = 'move circle at %1 radius %2 mm';
 Blockly.Msg.RS_MOTION_ROTATE_WRIST = 'rotate wrist %1 %2 degree';
 
-//rs module
-Blockly.Msg.RS_MODULE_AIR_PICKER = 'air picker %1';
-Blockly.Msg.RS_MODULE_SOFT_GRIPPER = 'soft gripper %1';
+// rs module
+Blockly.Msg.RS_FRONT_END_AIR_PICKER = 'air picker %1';
+Blockly.Msg.RS_FRONT_END_SOFT_GRIPPER = 'soft gripper %1';
 
-//rs setting
-Blockly.Msg.RS_SETTINGS_SET_MODULE = 'set module %1';
+// rs setting
+Blockly.Msg.RS_SETTINGS_SELECT_FRONT_END = 'select module %1';
 Blockly.Msg.RS_SETTINGS_SET_SPEED = 'set speed %1 mm/min';
 Blockly.Msg.RS_SETTINGS_SET_ACCELERATION = 'set acceleration %1 %2 mm/s²';
 Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE = 'set motion mode %1';
 Blockly.Msg.RS_SETTINGS_SET_WORK_ORIGIN = 'set work origin';
 
-//rs sensing
+// rs sensing
 Blockly.Msg.RS_SENSING_CURRENT_POSITION = 'current position %1';
 Blockly.Msg.RS_SENSING_CURRENT_ACCELERATION = 'current acceleration %1';
 Blockly.Msg.RS_SENSING_CURRENT_SPEED = 'current speed %1 mm/min';
 
-//rs sliding rail
+// rs sliding rail
 Blockly.Msg.RS_SLIDING_RAIL_SET_ACCELERATION = 'set sliding rail acceleration %1 mm/s²';
 Blockly.Msg.RS_SLIDING_RAIL_MOVE = 'move sliding rail %1 %2 mm at speed %3 mm/min';
 Blockly.Msg.RS_SLIDING_RAIL_MOVE_TO_ORIGIN = 'move sliding rail to origin';
 Blockly.Msg.RS_SLIDING_RAIL_STOP = 'stop sliding rail';
 
-//rs conveyor belt
+// rs conveyor belt
 Blockly.Msg.RS_CONVEYOR_BELT_MOVE = 'move conveyor belt %1 at speed %2 mm/min';
 Blockly.Msg.RS_CONVEYOR_BELT_STOP = 'stop conveyor belt';
 
-//rs option
-//anchor
+// rs option
+// anchor
 Blockly.Msg.RS_OPTION_LEFT_TOP = 'left-top';
 Blockly.Msg.RS_OPTION_LEFT_BOTTOM = 'left-bottom';
 Blockly.Msg.RS_OPTION_RIGHT_TOP = 'right-top';
@@ -398,23 +405,23 @@ Blockly.Msg.RS_OPTION_RIGHT = 'right';
 Blockly.Msg.RS_OPTION_TOP = 'top';
 Blockly.Msg.RS_OPTION_BOTTOM = 'bottom';
 
-//module status
+// module status
 Blockly.Msg.RS_OPTION_PICK = 'pick';
 Blockly.Msg.RS_OPTION_RELEASE = 'release';
 Blockly.Msg.RS_OPTION_OFF = 'off';
 Blockly.Msg.RS_OPTION_NETURAL = 'neutral';
 Blockly.Msg.RS_OPTION_GRIP = 'grip';
 
-//module type
+// module type
 Blockly.Msg.RS_OPTION_PEN_HOLDER = 'pen holder';
 Blockly.Msg.RS_OPTION_AIR_PICKER = 'air picker';
 Blockly.Msg.RS_OPTION_SOFT_GRIPPER = 'soft gripper';
 
-//motion mode
+// motion mode
 Blockly.Msg.RS_OPTION_FAST = 'fast';
 Blockly.Msg.RS_OPTION_LINEAR = 'linear';
 
-//direction
+// direction
 Blockly.Msg.RS_OPTION_FORWARD = 'forward';
 Blockly.Msg.RS_OPTION_BACKWARD = 'backward';
 Blockly.Msg.RS_OPTION_CLOCKWISE = 'clockwise';

@@ -6,10 +6,10 @@ goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
-Blockly.Blocks['RS_SETTINGS_SET_MODULE'] = {
+Blockly.Blocks['RS_SETTINGS_SELECT_FRONT_END'] = {
   init: function () {
     this.jsonInit({
-      "message0": Blockly.Msg.RS_SETTINGS_SET_MODULE,
+      "message0": Blockly.Msg.RS_SETTINGS_SELECT_FRONT_END,
       "args0": [
         {
           "type": "field_dropdown",

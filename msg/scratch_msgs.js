@@ -4302,6 +4302,11 @@ Blockly.ScratchMsgs.locales["en"] =
     "BROADCAST_MODAL_TITLE": "New Message",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
 
+    "CATEGORY_RS_FRONT_END": "Front End",
+    "CATEGORY_RS_SETTINGS": "Settings",
+    "CATEGORY_RS_SLIDING_RAIL": "Sliding Rail",
+    "CATEGORY_RS_CONVEYOR_BELT": "Conveyor Belt",
+
     "MOTION_RESET": "reset",
     "MOTION_MOVE_HOME": "move home",
     "MOTION_MOVE_ORIGIN": "move to origin",
@@ -17732,7 +17737,6 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "SOUND_VOLUME": "音量",
     "SOUND_RECORD": "录制…",
     "CATEGORY_MOTION": "运动",
-    "CATEGORY_MODULE": "模块",
     "CATEGORY_SETTINGS": "设置",
     "CATEGORY_SLIDING_RAIL": "导轨",
     "CATEGORY_CONVEYOR_BELT": "传送带",
@@ -17789,6 +17793,11 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "NEW_BROADCAST_MESSAGE_TITLE": "新消息的名称：",
     "BROADCAST_MODAL_TITLE": "新消息",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1",
+
+    "CATEGORY_RS_FRONT_END": "前端",
+    "CATEGORY_RS_SETTINGS": "设置",
+    "CATEGORY_RS_SLIDING_RAIL": "导轨",
+    "CATEGORY_RS_CONVEYOR_BELT": "传送带",
 
     "MOTION_RESET": "重置",
     "MOTION_MOVE_HOME": "前往 home",

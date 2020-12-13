@@ -6,10 +6,10 @@ goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
-Blockly.Blocks['RS_MODULE_AIR_PICKER'] = {
+Blockly.Blocks['RS_FRONT_END_AIR_PICKER'] = {
   init: function () {
     this.jsonInit({
-      "message0": Blockly.Msg.RS_MODULE_AIR_PICKER,
+      "message0": Blockly.Msg.RS_FRONT_END_AIR_PICKER,
       "args0": [
         {
           "type": "field_dropdown",
@@ -30,10 +30,10 @@ Blockly.Blocks['RS_MODULE_AIR_PICKER'] = {
   }
 };
 
-Blockly.Blocks['RS_MODULE_SOFT_GRIPPER'] = {
+Blockly.Blocks['RS_FRONT_END_SOFT_GRIPPER'] = {
   init: function () {
     this.jsonInit({
-      "message0": Blockly.Msg.RS_MODULE_SOFT_GRIPPER,
+      "message0": Blockly.Msg.RS_FRONT_END_SOFT_GRIPPER,
       "args0": [
         {
           "type": "field_dropdown",
