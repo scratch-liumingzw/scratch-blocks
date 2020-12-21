@@ -3438,11 +3438,89 @@ Blockly.ScratchMsgs.locales["de"] =
     "BROADCAST_MODAL_TITLE": "Neue Nachricht",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "Nachricht1",
 
-    "MOTION_RESET": "Zurücksetzen",
-    "MOTION_MOVE_HOME": "Zurück zur Startseite",
-    "MOTION_MOVE_ORIGIN": "Zurück zum Ausgangspunkt",
-    "MOTION_MOVE_POSITION": "in Position bewegen x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "Arbeitsursprung einstellen"
+    // for Rotrics Studio App
+    // Category labels
+    "CATEGORY_RS_FRONT_END": "Frontend",
+    "CATEGORY_RS_SETTINGS": "Einstellungen",
+    "CATEGORY_RS_SLIDING_RAIL": "Schieberegler",
+    "CATEGORY_RS_CONVEYOR_BELT": "Förderband",
+
+    // rs motion
+    "RS_MOTION_SAY_HELLO": 'Grüße',
+    "RS_MOTION_MOVE_HOME": 'Zurück zur Home',
+    "RS_MOTION_MOVE_ORIGIN": 'Zum Arbeitsursprung wechseln',
+    "RS_MOTION_MOVE_POSITION": 'Position anfahren x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": 'Relative Verschiebung x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": 'An %1 entlang eines Rechtecks %2 mm in der Breite %3 mm in der Höhe fahren',
+    "RS_MOTION_MOVE_CIRCLE": 'Fahren auf einem Kreis von %1 mit einem Radius von %2 mm',
+    "RS_MOTION_ROTATE_WRIST": 'Drehen um Richtung %1 %2 Grad',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": 'Saugnapf %1',
+    "RS_FRONT_END_SOFT_GRIPPER": 'Weicher Greifer %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": 'Setzen Sie das Modul auf %1',
+    "RS_SETTINGS_SET_SPEED": 'Setzen Sie die Geschwindigkeit auf %1 mm/s',
+    "RS_SETTINGS_SET_ACCELERATION": 'Setzen Sie die Beschleunigung von %1 auf %2 mm/s²',
+    "RS_SETTINGS_SET_MOTION_MODE": 'Setzen Sie den Bewegungsmodus auf %1',
+    "RS_SETTINGS_SET_WORK_ORIGIN": 'Arbeitsursprung einstellen',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": '%1 der aktuellen Position',
+    "RS_SENSING_CURRENT_ACCELERATION": '%1 der aktuellen Beschleunigung (mm/s²)',
+    "RS_SENSING_CURRENT_SPEED": '%1 der aktuellen Geschwindigkeit (mm/min)',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": 'Setzen Sie die Schlittenbeschleunigung auf %1 mm/s²',
+    "RS_SLIDING_RAIL_MOVE": 'Die Richtung des bewegten Schlittens ist %1, der Abstand ist %2 mm, die Geschwindigkeit ist %3 mm/s',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": 'Verschieben Sie die Folie zum Ursprung',
+    "RS_SLIDING_RAIL_STOP": 'Schlitten anhalten',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": 'Laufrichtung des Förderbandes ist %1, Geschwindigkeit ist %2 mm/s',
+    "RS_CONVEYOR_BELT_STOP": 'Anhalten des Förderbandes',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": 'Linke obere Ecke',
+    "RS_OPTION_LEFT_BOTTOM": 'Linke untere Ecke',
+    "RS_OPTION_RIGHT_TOP": 'Rechte obere Ecke',
+    "RS_OPTION_RIGHT_BOTTOM": 'Rechte untere Ecke',
+    "RS_OPTION_LEFT": 'Links',
+    "RS_OPTION_RIGHT": 'Rechts',
+    "RS_OPTION_TOP": 'Nach oben',
+    "RS_OPTION_BOTTOM": 'Daunen',
+
+    // module status
+    "RS_OPTION_PICK": 'Nehmen',
+    "RS_OPTION_RELEASE": 'Lösen',
+    "RS_OPTION_OFF": 'Aus',
+    "RS_OPTION_NETURAL": 'Neutral',
+    "RS_OPTION_GRIP": 'Greifen',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": 'Stift-Clip',
+    "RS_OPTION_AIR_PICKER": 'Saugnapf',
+    "RS_OPTION_SOFT_GRIPPER": 'Weicher Greifer',
+
+    // motion mode
+    "RS_OPTION_FAST": 'Schnell',
+    "RS_OPTION_LINEAR": 'Gerade Linie',
+
+    // direction
+    "RS_OPTION_FORWARD": 'Weiterleiten',
+    "RS_OPTION_BACKWARD": 'Rückwärts',
+    "RS_OPTION_CLOCKWISE": 'im Uhrzeigersinn',
+    "RS_OPTION_ANTICLOCKWISE": 'Gegen den Uhrzeigersinn',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": 'Drucken',
+    "RS_OPTION_RETRACT": 'Zurückpumpen',
+    "RS_OPTION_TRAVEL": 'Unnützes Laufen'
   };
 
 Blockly.ScratchMsgs.locales["et"] =
@@ -4302,16 +4380,89 @@ Blockly.ScratchMsgs.locales["en"] =
     "BROADCAST_MODAL_TITLE": "New Message",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
 
+    // for Rotrics Studio App
+    // Category labels
     "CATEGORY_RS_FRONT_END": "Front End",
     "CATEGORY_RS_SETTINGS": "Settings",
     "CATEGORY_RS_SLIDING_RAIL": "Sliding Rail",
     "CATEGORY_RS_CONVEYOR_BELT": "Conveyor Belt",
 
-    "MOTION_RESET": "reset",
-    "MOTION_MOVE_HOME": "move home",
-    "MOTION_MOVE_ORIGIN": "move to origin",
-    "MOTION_MOVE_POSITION": "move to position x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "set work origin"
+    // rs motion
+    "RS_MOTION_SAY_HELLO": 'say hello',
+    "RS_MOTION_MOVE_HOME": 'move home',
+    "RS_MOTION_MOVE_ORIGIN": 'move to work origin',
+    "RS_MOTION_MOVE_POSITION": 'move to position x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": 'move relative x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": 'move rectangle at %1 of width %2 mm height %3 mm',
+    "RS_MOTION_MOVE_CIRCLE": 'move circle at %1 radius %2 mm',
+    "RS_MOTION_ROTATE_WRIST": 'rotate wrist %1 %2 degree',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": 'air picker %1',
+    "RS_FRONT_END_SOFT_GRIPPER": 'soft gripper %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": 'select module %1',
+    "RS_SETTINGS_SET_SPEED": 'set speed %1 mm/min',
+    "RS_SETTINGS_SET_ACCELERATION": 'set acceleration %1 %2 mm/s²',
+    "RS_SETTINGS_SET_MOTION_MODE": 'set motion mode %1',
+    "RS_SETTINGS_SET_WORK_ORIGIN": 'set work origin',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": 'current position %1',
+    "RS_SENSING_CURRENT_ACCELERATION": 'current acceleration %1',
+    "RS_SENSING_CURRENT_SPEED": 'current speed %1 mm/min',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": 'set sliding rail acceleration %1 mm/s²',
+    "RS_SLIDING_RAIL_MOVE": 'move sliding rail %1 %2 mm at speed %3 mm/min',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": 'move sliding rail to origin',
+    "RS_SLIDING_RAIL_STOP": 'stop sliding rail',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": 'move conveyor belt %1 at speed %2 mm/min',
+    "RS_CONVEYOR_BELT_STOP": 'stop conveyor belt',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": 'left-top',
+    "RS_OPTION_LEFT_BOTTOM": 'left-bottom',
+    "RS_OPTION_RIGHT_TOP": 'right-top',
+    "RS_OPTION_RIGHT_BOTTOM": 'right-bottom',
+    "RS_OPTION_LEFT": 'left',
+    "RS_OPTION_RIGHT": 'right',
+    "RS_OPTION_TOP": 'top',
+    "RS_OPTION_BOTTOM": 'bottom',
+
+    // module status
+    "RS_OPTION_PICK": 'pick',
+    "RS_OPTION_RELEASE": 'release',
+    "RS_OPTION_OFF": 'off',
+    "RS_OPTION_NETURAL": 'neutral',
+    "RS_OPTION_GRIP": 'grip',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": 'pen holder',
+    "RS_OPTION_AIR_PICKER": 'air picker',
+    "RS_OPTION_SOFT_GRIPPER": 'soft gripper',
+
+    // motion mode
+    "RS_OPTION_FAST": 'fast',
+    "RS_OPTION_LINEAR": 'linear',
+
+    // direction
+    "RS_OPTION_FORWARD": 'forward',
+    "RS_OPTION_BACKWARD": 'backward',
+    "RS_OPTION_CLOCKWISE": 'clockwise',
+    "RS_OPTION_ANTICLOCKWISE": 'anticlockwise',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": 'printing',
+    "RS_OPTION_RETRACT": 'retract',
+    "RS_OPTION_TRAVEL": 'travel'
   };
 
 Blockly.ScratchMsgs.locales["es"] =
@@ -4599,11 +4750,89 @@ Blockly.ScratchMsgs.locales["es"] =
     "BROADCAST_MODAL_TITLE": "Nuevo Mensaje",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "mensaje1",
 
-    "MOTION_RESET": "Reiniciar",
-    "MOTION_MOVE_HOME": "mover a Inicio",
-    "MOTION_MOVE_ORIGIN": "mover al origen",
-    "MOTION_MOVE_POSITION": "mover a la posición x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "establecer origen de trabajo"
+    // for Rotrics Studio App
+    // Category labels
+    "CATEGORY_RS_FRONT_END": "Front-end",
+    "CATEGORY_RS_SETTINGS": "Ajustes",
+    "CATEGORY_RS_SLIDING_RAIL": "Deslizador",
+    "CATEGORY_RS_CONVEYOR_BELT": "Cinta transportadora",
+
+    // rs motion
+    "RS_MOTION_SAY_HELLO": 'say hello',
+    "RS_MOTION_MOVE_HOME": 'move home',
+    "RS_MOTION_MOVE_ORIGIN": 'move to work origin',
+    "RS_MOTION_MOVE_POSITION": 'move to position x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": 'move relative x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": 'move rectangle at %1 of width %2 mm height %3 mm',
+    "RS_MOTION_MOVE_CIRCLE": 'move circle at %1 radius %2 mm',
+    "RS_MOTION_ROTATE_WRIST": 'rotate wrist %1 %2 degree',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": 'air picker %1',
+    "RS_FRONT_END_SOFT_GRIPPER": 'soft gripper %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": 'select module %1',
+    "RS_SETTINGS_SET_SPEED": 'set speed %1 mm/min',
+    "RS_SETTINGS_SET_ACCELERATION": 'set acceleration %1 %2 mm/s²',
+    "RS_SETTINGS_SET_MOTION_MODE": 'set motion mode %1',
+    "RS_SETTINGS_SET_WORK_ORIGIN": 'set work origin',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": 'current position %1',
+    "RS_SENSING_CURRENT_ACCELERATION": 'current acceleration %1',
+    "RS_SENSING_CURRENT_SPEED": 'current speed %1 mm/min',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": 'set sliding rail acceleration %1 mm/s²',
+    "RS_SLIDING_RAIL_MOVE": 'move sliding rail %1 %2 mm at speed %3 mm/min',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": 'move sliding rail to origin',
+    "RS_SLIDING_RAIL_STOP": 'stop sliding rail',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": 'move conveyor belt %1 at speed %2 mm/min',
+    "RS_CONVEYOR_BELT_STOP": 'stop conveyor belt',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": 'left-top',
+    "RS_OPTION_LEFT_BOTTOM": 'left-bottom',
+    "RS_OPTION_RIGHT_TOP": 'right-top',
+    "RS_OPTION_RIGHT_BOTTOM": 'right-bottom',
+    "RS_OPTION_LEFT": 'left',
+    "RS_OPTION_RIGHT": 'right',
+    "RS_OPTION_TOP": 'top',
+    "RS_OPTION_BOTTOM": 'bottom',
+
+    // module status
+    "RS_OPTION_PICK": 'pick',
+    "RS_OPTION_RELEASE": 'release',
+    "RS_OPTION_OFF": 'off',
+    "RS_OPTION_NETURAL": 'neutral',
+    "RS_OPTION_GRIP": 'grip',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": 'pen holder',
+    "RS_OPTION_AIR_PICKER": 'air picker',
+    "RS_OPTION_SOFT_GRIPPER": 'soft gripper',
+
+    // motion mode
+    "RS_OPTION_FAST": 'fast',
+    "RS_OPTION_LINEAR": 'linear',
+
+    // direction
+    "RS_OPTION_FORWARD": 'forward',
+    "RS_OPTION_BACKWARD": 'backward',
+    "RS_OPTION_CLOCKWISE": 'clockwise',
+    "RS_OPTION_ANTICLOCKWISE": 'anticlockwise',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": 'printing',
+    "RS_OPTION_RETRACT": 'retract',
+    "RS_OPTION_TRAVEL": 'travel'
   };
 
 Blockly.ScratchMsgs.locales["es-419"] =
@@ -5749,11 +5978,89 @@ Blockly.ScratchMsgs.locales["fr"] =
     "BROADCAST_MODAL_TITLE": "Nouveau message",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
 
-    "MOTION_RESET": "Réinitialiser",
-    "MOTION_MOVE_HOME": "Passer à l'accueil",
-    "MOTION_MOVE_ORIGIN": "Passer à l'origine",
-    "MOTION_MOVE_POSITION": "Passer à la position x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "Régler l'origine du travail"
+    // for Rotrics Studio App
+    // Category labels
+    "CATEGORY_RS_FRONT_END": "En amont",
+    "CATEGORY_RS_SETTINGS": "Paramètres",
+    "CATEGORY_RS_SLIDING_RAIL": "Glissière",
+    "CATEGORY_RS_CONVEYOR_BELT": "Bande transporteuse",
+
+    // rs motion
+    "RS_MOTION_SAY_HELLO": 'Salutations',
+    "RS_MOTION_MOVE_HOME": 'Passer à Home',
+    "RS_MOTION_MOVE_ORIGIN": 'passer à l\'origine du travail',
+    "RS_MOTION_MOVE_POSITION": 'Passer à la position x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": 'Décalage relatif x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": 'Déplacement à %1 le long d\'un rectangle %2 mm en largeur %3 mm en hauteur',
+    "RS_MOTION_MOVE_CIRCLE": 'Se déplacer dans un cercle de %1 sur un rayon de %2 mm',
+    "RS_MOTION_ROTATE_WRIST": 'Rotation par sens %1 %2 degrés',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": 'Suçoir %1',
+    "RS_FRONT_END_SOFT_GRIPPER": 'Pince souple %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": 'Régler le module sur %1',
+    "RS_SETTINGS_SET_SPEED": 'Régler la vitesse à %1 mm/s',
+    "RS_SETTINGS_SET_ACCELERATION": 'Régler l\'accélération de %1 à %2 mm/s²',
+    "RS_SETTINGS_SET_MOTION_MODE": 'Régler le mode de mouvement sur %1',
+    "RS_SETTINGS_SET_WORK_ORIGIN": 'Régler l\'origine du travail',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": '%1 de la situation actuelle',
+    "RS_SENSING_CURRENT_ACCELERATION": '%1 de l\'accélération actuelle (mm/s²)',
+    "RS_SENSING_CURRENT_SPEED": '%1 de la vitesse actuelle (mm/min)',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": 'Régler l\'accélération de la diapositive à %1 mm/s²',
+    "RS_SLIDING_RAIL_MOVE": 'La direction de la glissière est %1, la distance est %2 mm, la vitesse est %3 mm/s',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": 'Déplacer la diapositive vers l\'origine',
+    "RS_SLIDING_RAIL_STOP": 'Arrêt de la diapositive',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": 'La direction de la bande transporteuse est %1, la vitesse est %2 mm/s',
+    "RS_CONVEYOR_BELT_STOP": 'Arrêter le tapis roulant',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": 'Coin supérieur gauche',
+    "RS_OPTION_LEFT_BOTTOM": 'Coin inférieur gauche',
+    "RS_OPTION_RIGHT_TOP": 'Coin supérieur droit',
+    "RS_OPTION_RIGHT_BOTTOM": 'Coin inférieur droit',
+    "RS_OPTION_LEFT": 'A gauche',
+    "RS_OPTION_RIGHT": 'Droite',
+    "RS_OPTION_TOP": 'Vers le haut',
+    "RS_OPTION_BOTTOM": 'En bas',
+
+    // module status
+    "RS_OPTION_PICK": 'Aspirer',
+    "RS_OPTION_RELEASE": 'Libérer',
+    "RS_OPTION_OFF": 'Désactiver',
+    "RS_OPTION_NETURAL": 'Flancher',
+    "RS_OPTION_GRIP": 'Attraper',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": 'Pince à stylo',
+    "RS_OPTION_AIR_PICKER": 'Suçoir',
+    "RS_OPTION_SOFT_GRIPPER": 'Pince souple',
+
+    // motion mode
+    "RS_OPTION_FAST": 'Rapide',
+    "RS_OPTION_LINEAR": 'Ligne droite',
+
+    // direction
+    "RS_OPTION_FORWARD": 'Transmettre',
+    "RS_OPTION_BACKWARD": 'En arrière',
+    "RS_OPTION_CLOCKWISE": 'dans le sens des aiguilles d\'une montre',
+    "RS_OPTION_ANTICLOCKWISE": 'Dans le sens inverse des aiguilles d\'une montre',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": 'Imprimer',
+    "RS_OPTION_RETRACT": 'Pompage',
+    "RS_OPTION_TRAVEL": 'Fonctionnement inutile'
   };
 
 Blockly.ScratchMsgs.locales["ga"] =
@@ -6899,11 +7206,89 @@ Blockly.ScratchMsgs.locales["ko"] =
     "BROADCAST_MODAL_TITLE": "새로운 메시지",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "메시지1",
 
-    "MOTION_RESET": "다시 열림",
-    "MOTION_MOVE_HOME": "집까지 이사함",
-    "MOTION_MOVE_ORIGIN": "원점으로 이동함",
-    "MOTION_MOVE_POSITION": "위치에 이동함 x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "공작원점 설정",
+    // for Rotrics Studio App
+    // Category labels
+    "CATEGORY_RS_FRONT_END": "프론트 엔드",
+    "CATEGORY_RS_SETTINGS": "설정",
+    "CATEGORY_RS_SLIDING_RAIL": "슬라이드 레일",
+    "CATEGORY_RS_CONVEYOR_BELT": "전동대",
+
+    // rs motion
+    "RS_MOTION_SAY_HELLO": '인사',
+    "RS_MOTION_MOVE_HOME": 'Home 이사함',
+    "RS_MOTION_MOVE_ORIGIN": '직장으로 이동',
+    "RS_MOTION_MOVE_POSITION": '위치 x %1 y %2 z %3 으로 이동',
+    "RS_MOTION_MOVE_RELATIVE": '상대적으로 이동 x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": '%1 에서 폭 %2 mm 높이 %3 mm 의 직사각형을 따라 이동',
+    "RS_MOTION_MOVE_CIRCLE": '%1 에서 반지름 %2 mm 의 원형을 따라 이동',
+    "RS_MOTION_ROTATE_WRIST": '방향별 %1 %2 도 회전',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": '에어픽 %1',
+    "RS_FRONT_END_SOFT_GRIPPER": '소프트 그리퍼 %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": '모듈 설정 %1',
+    "RS_SETTINGS_SET_SPEED": '설정 속도는 %1 mm/s',
+    "RS_SETTINGS_SET_ACCELERATION": '%1 설정 가속도 %2 mm/s²',
+    "RS_SETTINGS_SET_MOTION_MODE": '모션 모드를 %1 로 설정',
+    "RS_SETTINGS_SET_WORK_ORIGIN": '공작원점 설정',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": '현재 위치의 %1',
+    "RS_SENSING_CURRENT_ACCELERATION": '%1 의 현재 가속도 (mm/s²)',
+    "RS_SENSING_CURRENT_SPEED": '%1 의 현재 속도 (mm/min)',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": '레일 가속도를 %1 mm/s² 로 설정',
+    "RS_SLIDING_RAIL_MOVE": '이동 레일 방향은 %1 거리는 %2 mm 속도 %3 mm/s',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": '레일 이동 원점으로',
+    "RS_SLIDING_RAIL_STOP": '레일 정지',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": '이동 컨베이어 벨트 방향은 %1 속도 %2 mm/s',
+    "RS_CONVEYOR_BELT_STOP": '컨베이어 벨트 중지',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": '왼쪽 상단',
+    "RS_OPTION_LEFT_BOTTOM": '왼쪽 하단',
+    "RS_OPTION_RIGHT_TOP": '오른쪽 상단',
+    "RS_OPTION_RIGHT_BOTTOM": '오른쪽 하단',
+    "RS_OPTION_LEFT": '왼쪽',
+    "RS_OPTION_RIGHT": '오른쪽',
+    "RS_OPTION_TOP": '위쪽 ',
+    "RS_OPTION_BOTTOM": '아래',
+
+    // module status
+    "RS_OPTION_PICK": '픽',
+    "RS_OPTION_RELEASE": '석방',
+    "RS_OPTION_OFF": '오프',
+    "RS_OPTION_NETURAL": '낙담',
+    "RS_OPTION_GRIP": '잡기',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": '펜홀더',
+    "RS_OPTION_AIR_PICKER": '에어픽',
+    "RS_OPTION_SOFT_GRIPPER": '소프트 그리퍼',
+
+    // motion mode
+    "RS_OPTION_FAST": '빠른 속도',
+    "RS_OPTION_LINEAR": '직선',
+
+    // direction
+    "RS_OPTION_FORWARD": '전진하다',
+    "RS_OPTION_BACKWARD": '후퇴',
+    "RS_OPTION_CLOCKWISE": '시계방향',
+    "RS_OPTION_ANTICLOCKWISE": '시계 반대',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": '인쇄',
+    "RS_OPTION_RETRACT": '회수 추출 하 다',
+    "RS_OPTION_TRAVEL": '헛걸음 하 다'
   };
 
 Blockly.ScratchMsgs.locales["hy"] =
@@ -8621,11 +9006,89 @@ Blockly.ScratchMsgs.locales["it"] =
     "BROADCAST_MODAL_TITLE": "Nuovo Messaggio",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "messaggio1",
 
-    "MOTION_RESET": "Ripristina",
-    "MOTION_MOVE_HOME": "Muovi a casa",
-    "MOTION_MOVE_ORIGIN": "Muovi a origine",
-    "MOTION_MOVE_POSITION": "Muovi alla posizione x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "Imposta l'origine del lavoro"
+    // for Rotrics Studio App
+    // Category labels
+    "CATEGORY_RS_FRONT_END": "Front-end",
+    "CATEGORY_RS_SETTINGS": "Impostazioni",
+    "CATEGORY_RS_SLIDING_RAIL": "Cursore",
+    "CATEGORY_RS_CONVEYOR_BELT": "Nastro trasportatore",
+
+    // rs motion
+    "RS_MOTION_SAY_HELLO": 'Saluti',
+    "RS_MOTION_MOVE_HOME": 'spostarsi in Home',
+    "RS_MOTION_MOVE_ORIGIN": 'Spostare in origine del lavoro',
+    "RS_MOTION_MOVE_POSITION": 'Spostare in posizione x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": 'Spostamento relativo x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": 'Spostamento a %1 lungo un rettangolo %2 mm in larghezza %3 mm in altezza',
+    "RS_MOTION_MOVE_CIRCLE": 'Spostare in un cerchio di %1 lungo un raggio di %2 mm',
+    "RS_MOTION_ROTATE_WRIST": 'Ruotare in direzione %1 %2 gradi',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": 'Pipetta %1',
+    "RS_FRONT_END_SOFT_GRIPPER": 'Pinza Morbida %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": 'Impostare il modulo su %1',
+    "RS_SETTINGS_SET_SPEED": 'Impostare la velocità su %1 mm/s',
+    "RS_SETTINGS_SET_ACCELERATION": 'Impostare l\'accelerazione da %1 a %2 mm/s²',
+    "RS_SETTINGS_SET_MOTION_MODE": 'Impostare il modo di movimento su %1',
+    "RS_SETTINGS_SET_WORK_ORIGIN": 'Imposta l\'origine del lavoro',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": '%1 della posizione attuale',
+    "RS_SENSING_CURRENT_ACCELERATION": '%1 dell\'accelerazione attuale (mm/s²)',
+    "RS_SENSING_CURRENT_SPEED": '%1 della velocità attuale (mm/min)',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": 'Impostare l\'accelerazione della slitta su %1 mm/s²',
+    "RS_SLIDING_RAIL_MOVE": 'La direzione della slitta mobile è %1, la distanza è %2 mm, la velocità è %3 mm/s',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": 'Spostare il cursore all\'origine',
+    "RS_SLIDING_RAIL_STOP": 'Diapositiva di arresto',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": 'La direzione del nastro trasportatore in movimento è %1, la velocità è %2 mm/s',
+    "RS_CONVEYOR_BELT_STOP": 'Fermare il nastro trasportatore',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": 'Angolo in alto a sinistra',
+    "RS_OPTION_LEFT_BOTTOM": 'In basso a sinistra',
+    "RS_OPTION_RIGHT_TOP": 'Angolo in alto a destra',
+    "RS_OPTION_RIGHT_BOTTOM": 'Angolo in basso a destra',
+    "RS_OPTION_LEFT": 'A sinistra',
+    "RS_OPTION_RIGHT": 'A destra',
+    "RS_OPTION_TOP": 'Su',
+    "RS_OPTION_BOTTOM": 'Giù',
+
+    // module status
+    "RS_OPTION_PICK": 'Scegli',
+    "RS_OPTION_RELEASE": 'Rilascia',
+    "RS_OPTION_OFF": 'Spento',
+    "RS_OPTION_NETURAL": 'Neutro',
+    "RS_OPTION_GRIP": 'Impugna',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": 'Clip per penna',
+    "RS_OPTION_AIR_PICKER": 'Pipetta',
+    "RS_OPTION_SOFT_GRIPPER": 'Pinza Morbida',
+
+    // motion mode
+    "RS_OPTION_FAST": 'Veloce',
+    "RS_OPTION_LINEAR": 'Linea retta',
+
+    // direction
+    "RS_OPTION_FORWARD": 'Inoltrare',
+    "RS_OPTION_BACKWARD": 'Indietro',
+    "RS_OPTION_CLOCKWISE": 'in senso orario',
+    "RS_OPTION_ANTICLOCKWISE": 'In senso antiorario',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": 'Stampa',
+    "RS_OPTION_RETRACT": 'Pompa indietro',
+    "RS_OPTION_TRAVEL": 'Corsa inutile'
   };
 
 Blockly.ScratchMsgs.locales["ka"] =
@@ -11773,11 +12236,90 @@ Blockly.ScratchMsgs.locales["ja"] =
     "BROADCAST_MODAL_TITLE": "新しいメッセージ",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "メッセージ1",
 
-    "MOTION_RESET": "リセット",
-    "MOTION_MOVE_HOME": "家に移動",
-    "MOTION_MOVE_ORIGIN": "原点に移動",
-    "MOTION_MOVE_POSITION": "位置に移動 x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "仕事の原点を設定します"
+
+    // for Rotrics Studio App
+    // Category labels
+    "CATEGORY_RS_FRONT_END": "フロントエンド",
+    "CATEGORY_RS_SETTINGS": "設定",
+    "CATEGORY_RS_SLIDING_RAIL": "スライダー",
+    "CATEGORY_RS_CONVEYOR_BELT": "コンベアベルト",
+
+    // rs motion
+    "RS_MOTION_SAY_HELLO": 'ご挨拶',
+    "RS_MOTION_MOVE_HOME": 'HOMEに移動',
+    "RS_MOTION_MOVE_ORIGIN": '仕事の原点に移動',
+    "RS_MOTION_MOVE_POSITION": '位置に移動 x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": '相対移動 x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": '幅 %3 mm 幅の長方形 %2 mm に沿って %1 で移動する',
+    "RS_MOTION_MOVE_CIRCLE": '半径 %2 mm の円に沿って %1 内を移動する',
+    "RS_MOTION_ROTATE_WRIST": '方向により回転 %1 %2 度',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": 'エアーピッカー %1',
+    "RS_FRONT_END_SOFT_GRIPPER": 'ソフトグリッパー %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": 'モジュールを %1 に設定する',
+    "RS_SETTINGS_SET_SPEED": '速度を %1 mm/s に設定する',
+    "RS_SETTINGS_SET_ACCELERATION": '%1 の加速度を %2 mm/s² に設定する',
+    "RS_SETTINGS_SET_MOTION_MODE": 'モーションモードを %1 に設定する',
+    "RS_SETTINGS_SET_WORK_ORIGIN": '仕事の原点を設定します',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": '現在の位置の %1',
+    "RS_SENSING_CURRENT_ACCELERATION": '現在の加速度の %1 mm/s²',
+    "RS_SENSING_CURRENT_SPEED": '現在の速度の %1 mm/min',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": 'スライド加速度を %1 mm/s² に設定する',
+    "RS_SLIDING_RAIL_MOVE": '移動スライドの方向は %1 距離は %2 mm 速度は %3 mm/s',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": 'スライドをホームポジションに移動',
+    "RS_SLIDING_RAIL_STOP": 'ストップスライド',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": '移動コンベアベルト方向は %1、速度は %2 mm/s',
+    "RS_CONVEYOR_BELT_STOP": 'コンベアベルトを止める',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": '左上角',
+    "RS_OPTION_LEFT_BOTTOM": '左下角',
+    "RS_OPTION_RIGHT_TOP": '右上角',
+    "RS_OPTION_RIGHT_BOTTOM": '右下角',
+    "RS_OPTION_LEFT": '左',
+    "RS_OPTION_RIGHT": '右',
+    "RS_OPTION_TOP": '上',
+    "RS_OPTION_BOTTOM": '下',
+
+    // module status
+    "RS_OPTION_PICK": '吸着',
+    "RS_OPTION_RELEASE": '解放',
+    "RS_OPTION_OFF": 'オフ',
+    "RS_OPTION_NETURAL": 'ニュートラル',
+    "RS_OPTION_GRIP": 'グリップ',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": 'ペンクリップ',
+    "RS_OPTION_AIR_PICKER": 'エアーピッカー',
+    "RS_OPTION_SOFT_GRIPPER": 'ソフトグリッパー',
+
+    // motion mode
+    "RS_OPTION_FAST": 'クイック',
+    "RS_OPTION_LINEAR": '直線',
+
+    // direction
+    "RS_OPTION_FORWARD": '前進',
+    "RS_OPTION_BACKWARD": '後退',
+    "RS_OPTION_CLOCKWISE": '時計回り',
+    "RS_OPTION_ANTICLOCKWISE": '反時計回り',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": 'プリント',
+    "RS_OPTION_RETRACT": 'バックドロー',
+    "RS_OPTION_TRAVEL": '空の状態でのランニング'
   };
 
 Blockly.ScratchMsgs.locales["ja-Hira"] =
@@ -14351,7 +14893,91 @@ Blockly.ScratchMsgs.locales["pt-br"] =
     "NEW_BROADCAST_MESSAGE": "Nova mensagem",
     "NEW_BROADCAST_MESSAGE_TITLE": "Novo nome de mensagem:",
     "BROADCAST_MODAL_TITLE": "Nova Mensagem",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "mensagem 1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "mensagem 1",
+
+    // for Rotrics Studio App
+    // Category labels
+    "CATEGORY_RS_FRONT_END": "extremidade dianteira",
+    "CATEGORY_RS_SETTINGS": "montar",
+    "CATEGORY_RS_SLIDING_RAIL": "calha deslizante",
+    "CATEGORY_RS_CONVEYOR_BELT": "tapete rolante",
+
+    // rs motion
+    "RS_MOTION_SAY_HELLO": 'Saudações',
+    "RS_MOTION_MOVE_HOME": 'Moverse al punto HOME',
+    "RS_MOTION_MOVE_ORIGIN": 'Mudar para a origem do trabalho',
+    "RS_MOTION_MOVE_POSITION": 'Mover para a posição x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": 'Movimento relativo x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": 'Mova-se em %1 ao longo de um rectângulo %2 mm de largura %3 mm de altura',
+    "RS_MOTION_MOVE_CIRCLE": 'Deslocar-se num círculo de %1 ao longo de um raio de %2 mm',
+    "RS_MOTION_ROTATE_WRIST": 'Rotação na direcção %1 %2 graus',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": 'Ventosa %1',
+    "RS_FRONT_END_SOFT_GRIPPER": 'Pega flexível %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": 'Ajuste o módulo para %1',
+    "RS_SETTINGS_SET_SPEED": 'Ajuste a velocidade para %1 mm/s',
+    "RS_SETTINGS_SET_ACCELERATION": 'Ajustar a aceleração de %1 a %2 mm/s².',
+    "RS_SETTINGS_SET_MOTION_MODE": 'Ajuste o modo de movimento para %1',
+    "RS_SETTINGS_SET_WORK_ORIGIN": 'Definir a origem do trabalho',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": '%1 da posição atual',
+    "RS_SENSING_CURRENT_ACCELERATION": '%1 da aceleração actual (mm/s²)',
+    "RS_SENSING_CURRENT_SPEED": '%1 da velocidade actual (mm/min)',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": 'Ajustar a aceleração do carro para %1 mm/s²',
+    "RS_SLIDING_RAIL_MOVE": 'A direcção do deslizamento é %1, a distância é %2 mm e a velocidade é %3 mm/s',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": 'Mova o slide para a origem',
+    "RS_SLIDING_RAIL_STOP": 'Parar slide',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": 'A direção da correia transportadora móvel é %1 Velocidade é %2 mm/s',
+    "RS_CONVEYOR_BELT_STOP": 'Parar a esteira transportadora',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": 'canto superior esquerdo',
+    "RS_OPTION_LEFT_BOTTOM": 'canto esquerdo inferior',
+    "RS_OPTION_RIGHT_TOP": 'canto superior direito',
+    "RS_OPTION_RIGHT_BOTTOM": 'canto inferior direito',
+    "RS_OPTION_LEFT": 'esquerda',
+    "RS_OPTION_RIGHT": 'à direita',
+    "RS_OPTION_TOP": 'acima',
+    "RS_OPTION_BOTTOM": 'abaixo',
+
+    // module status
+    "RS_OPTION_PICK": 'Sucção',
+    "RS_OPTION_RELEASE": 'Lançamento',
+    "RS_OPTION_OFF": 'desligar',
+    "RS_OPTION_NETURAL": 'Ventilação',
+    "RS_OPTION_GRIP": 'Pegue',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": 'clipe de caneta',
+    "RS_OPTION_AIR_PICKER": 'Ventosa',
+    "RS_OPTION_SOFT_GRIPPER": 'Mandíbula de agarrar flexível',
+
+    // motion mode
+    "RS_OPTION_FAST": 'rápido',
+    "RS_OPTION_LINEAR": 'linha reta',
+
+    // direction
+    "RS_OPTION_FORWARD": 'ir em frente',
+    "RS_OPTION_BACKWARD": 'regressar',
+    "RS_OPTION_CLOCKWISE": 'em sentido horário',
+    "RS_OPTION_ANTICLOCKWISE": 'em sentido anti-horário',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": 'impressão',
+    "RS_OPTION_RETRACT": 'pumpback',
+    "RS_OPTION_TRAVEL": 'funcionamento em vazio'
   };
 
 Blockly.ScratchMsgs.locales["rap"] =
@@ -15211,11 +15837,89 @@ Blockly.ScratchMsgs.locales["ru"] =
     "BROADCAST_MODAL_TITLE": "Новое сообщение",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "сообщение1",
 
-    "MOTION_RESET": "Сброс",
-    "MOTION_MOVE_HOME": "Перейти в дом",
-    "MOTION_MOVE_ORIGIN": "Перейти в начало",
-    "MOTION_MOVE_POSITION": "Перейти в положение x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "Установить начало работы"
+    // for Rotrics Studio App
+    // Category labels
+    "CATEGORY_RS_FRONT_END": "Внешний сайт",
+    "CATEGORY_RS_SETTINGS": "Настройки",
+    "CATEGORY_RS_SLIDING_RAIL": "Слайдер",
+    "CATEGORY_RS_CONVEYOR_BELT": "конвейер",
+
+    // rs motion
+    "RS_MOTION_SAY_HELLO": 'Приветствия',
+    "RS_MOTION_MOVE_HOME": 'Перейти в дом',
+    "RS_MOTION_MOVE_ORIGIN": 'Перейти к месту работы',
+    "RS_MOTION_MOVE_POSITION": 'Перейти в положение x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": 'Относительный сдвиг x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": 'Двигаться на %1 вдоль прямоугольника %2 мм в ширину %3 мм в высоту',
+    "RS_MOTION_MOVE_CIRCLE": 'Двигаться в круге %1 по радиусу %2 мм',
+    "RS_MOTION_ROTATE_WRIST": 'Поворот на направление %1 %2 градуса',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": 'Присоска %1',
+    "RS_FRONT_END_SOFT_GRIPPER": 'Мягкий захват %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": 'Установить модуль на %1',
+    "RS_SETTINGS_SET_SPEED": 'Установите скорость на %1 мм/с',
+    "RS_SETTINGS_SET_ACCELERATION": 'Установите ускорение от %1 до %2 мм/с².',
+    "RS_SETTINGS_SET_MOTION_MODE": 'Установите режим движения на %1',
+    "RS_SETTINGS_SET_WORK_ORIGIN": 'Установить начало работы',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": '%1 от текущей позиции',
+    "RS_SENSING_CURRENT_ACCELERATION": '%1 текущее ускорение (mm/s²)',
+    "RS_SENSING_CURRENT_SPEED": '%1 текущая скорость (mm/min)',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": 'Установите ускорение скольжения на %1 мм/с²',
+    "RS_SLIDING_RAIL_MOVE": 'Направление движения каретки - %1, расстояние - %2 мм, скорость - %3 мм/с',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": 'Переместите слайд в начало',
+    "RS_SLIDING_RAIL_STOP": 'Стоп-слайд',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": 'Направление движения ленты конвейера %1, скорость - %2 мм/сек',
+    "RS_CONVEYOR_BELT_STOP": 'Остановить конвейер',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": 'Верхний левый угол',
+    "RS_OPTION_LEFT_BOTTOM": 'Нижний левый угол',
+    "RS_OPTION_RIGHT_TOP": 'Верхний правый угол',
+    "RS_OPTION_RIGHT_BOTTOM": 'Нижний правый угол',
+    "RS_OPTION_LEFT": 'Налево',
+    "RS_OPTION_RIGHT": 'Справа',
+    "RS_OPTION_TOP": 'Up',
+    "RS_OPTION_BOTTOM": 'На сайте',
+
+    // module status
+    "RS_OPTION_PICK": 'Привлечь',
+    "RS_OPTION_RELEASE": 'Выпустить',
+    "RS_OPTION_OFF": 'Выключить',
+    "RS_OPTION_NETURAL": 'Уныть',
+    "RS_OPTION_GRIP": 'Захватить',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": 'Зажим для ручек',
+    "RS_OPTION_AIR_PICKER": 'Присоска',
+    "RS_OPTION_SOFT_GRIPPER": 'Мягкий захват',
+
+    // motion mode
+    "RS_OPTION_FAST": 'Быстрый',
+    "RS_OPTION_LINEAR": 'Прямая линия',
+
+    // direction
+    "RS_OPTION_FORWARD": 'Форвард',
+    "RS_OPTION_BACKWARD": 'Назад',
+    "RS_OPTION_CLOCKWISE": 'по часовой стрелке',
+    "RS_OPTION_ANTICLOCKWISE": 'Против часовой стрелки',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": 'Печать',
+    "RS_OPTION_RETRACT": 'Перерыв',
+    "RS_OPTION_TRAVEL": 'Бесполезный ход'
   };
 
 Blockly.ScratchMsgs.locales["sr"] =
@@ -17794,16 +18498,89 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "BROADCAST_MODAL_TITLE": "新消息",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1",
 
+    // for Rotrics Studio App
+    // Category labels
     "CATEGORY_RS_FRONT_END": "前端",
     "CATEGORY_RS_SETTINGS": "设置",
     "CATEGORY_RS_SLIDING_RAIL": "导轨",
     "CATEGORY_RS_CONVEYOR_BELT": "传送带",
 
-    "MOTION_RESET": "重置",
-    "MOTION_MOVE_HOME": "前往 home",
-    "MOTION_MOVE_ORIGIN": "前往工作原点",
-    "MOTION_MOVE_POSITION": "移动到位置 x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "设置工作原点"
+    // rs motion
+    "RS_MOTION_SAY_HELLO": '打招呼',
+    "RS_MOTION_MOVE_HOME": '移动到 home',
+    "RS_MOTION_MOVE_ORIGIN": '移动到工作原点',
+    "RS_MOTION_MOVE_POSITION": '移动到位置 x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": '相对移动 x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": '在 %1 沿宽 %2mm 高 %3mm 的矩形移动',
+    "RS_MOTION_MOVE_CIRCLE": '在 %1 沿半径 %2 mm 的圆形移动',
+    "RS_MOTION_ROTATE_WRIST": '按方向 %1 %2 度旋转',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": '吸盘 %1',
+    "RS_FRONT_END_SOFT_GRIPPER": '柔性爪 %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": '设置模块为 %1',
+    "RS_SETTINGS_SET_SPEED": '设置速度为 %1 mm/s',
+    "RS_SETTINGS_SET_ACCELERATION": '设置 %1 的加速度为 %2 mm/s²',
+    "RS_SETTINGS_SET_MOTION_MODE": '设置运动模式为 %1',
+    "RS_SETTINGS_SET_WORK_ORIGIN": '设置工作原点',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": '当前位置的 %1',
+    "RS_SENSING_CURRENT_ACCELERATION": '%1 的当前加速度 (mm/s²)',
+    "RS_SENSING_CURRENT_SPEED": '%1 的当前速度 (mm/min)',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": '设置滑轨加速度为 %1 mm/s²',
+    "RS_SLIDING_RAIL_MOVE": '移动滑轨方向为 %1 距离为 %2 mm 速度为 %3 mm/s',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": '移动滑轨到原点',
+    "RS_SLIDING_RAIL_STOP": '停止滑轨',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": '移动传送带方向为 %1 速度为 %2 mm/s',
+    "RS_CONVEYOR_BELT_STOP": '停止传送带',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": '左上角',
+    "RS_OPTION_LEFT_BOTTOM": '左下角',
+    "RS_OPTION_RIGHT_TOP": '右上角',
+    "RS_OPTION_RIGHT_BOTTOM": '右下角',
+    "RS_OPTION_LEFT": '左',
+    "RS_OPTION_RIGHT": '右',
+    "RS_OPTION_TOP": '上',
+    "RS_OPTION_BOTTOM": '下',
+
+    // module status
+    "RS_OPTION_PICK": '吸取',
+    "RS_OPTION_RELEASE": '释放',
+    "RS_OPTION_OFF": '关闭',
+    "RS_OPTION_NETURAL": '泄气',
+    "RS_OPTION_GRIP": '抓取',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": '笔夹',
+    "RS_OPTION_AIR_PICKER": '吸盘',
+    "RS_OPTION_SOFT_GRIPPER": '柔性爪',
+
+    // motion mode
+    "RS_OPTION_FAST": '快速',
+    "RS_OPTION_LINEAR": '直线',
+
+    // direction
+    "RS_OPTION_FORWARD": '前进',
+    "RS_OPTION_BACKWARD": '后退',
+    "RS_OPTION_CLOCKWISE": '顺时针',
+    "RS_OPTION_ANTICLOCKWISE": '逆时针',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": '打印',
+    "RS_OPTION_RETRACT": '回抽',
+    "RS_OPTION_TRAVEL": '空跑'
   };
 
 Blockly.ScratchMsgs.locales["zh-tw"] =
@@ -18091,10 +18868,88 @@ Blockly.ScratchMsgs.locales["zh-tw"] =
     "BROADCAST_MODAL_TITLE": "新的訊息",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
 
-    "MOTION_RESET": "重置",
-    "MOTION_MOVE_HOME": "前往 home",
-    "MOTION_MOVE_ORIGIN": "前往工作原點",
-    "MOTION_MOVE_POSITION": "移動到位置 x %1 y %2 z %3",
-    "MOTION_SET_WORK_ORIGIN": "設置工作原點"
+    // for Rotrics Studio App
+    // Category labels
+    "CATEGORY_RS_FRONT_END": "前端",
+    "CATEGORY_RS_SETTINGS": "設置",
+    "CATEGORY_RS_SLIDING_RAIL": "滑軌",
+    "CATEGORY_RS_CONVEYOR_BELT": "傳動帶",
+
+    // rs motion
+    "RS_MOTION_SAY_HELLO": '打招呼',
+    "RS_MOTION_MOVE_HOME": '前往 home',
+    "RS_MOTION_MOVE_ORIGIN": '移動到工作原點',
+    "RS_MOTION_MOVE_POSITION": '移動到位置 x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RELATIVE": '相對移動 x %1 y %2 z %3',
+    "RS_MOTION_MOVE_RECTANGLE": '在 %1 沿寬 %2mm 高 %3mm 的矩形移動',
+    "RS_MOTION_MOVE_CIRCLE": '在 %1 沿半徑 %2 mm 的圓形移動',
+    "RS_MOTION_ROTATE_WRIST": '按方向 %1 %2 度旋轉',
+
+    // rs module
+    "RS_FRONT_END_AIR_PICKER": '吸盤 %1',
+    "RS_FRONT_END_SOFT_GRIPPER": '柔性爪 %1',
+
+    // rs setting
+    "RS_SETTINGS_SELECT_FRONT_END": '設置模組為 %1',
+    "RS_SETTINGS_SET_SPEED": '設置速度為 %1 mm/s',
+    "RS_SETTINGS_SET_ACCELERATION": '設置 %1 的加速度為 %2 mm/s²',
+    "RS_SETTINGS_SET_MOTION_MODE": '設置運動模式為 %1',
+    "RS_SETTINGS_SET_WORK_ORIGIN": '設置工作原點',
+
+    // rs sensing
+    "RS_SENSING_CURRENT_POSITION": '當前位置的 %1',
+    "RS_SENSING_CURRENT_ACCELERATION": '%1 的當前加速度 (mm/s²)',
+    "RS_SENSING_CURRENT_SPEED": '%1 的當前速度 (mm/min)',
+
+    // rs sliding rail
+    "RS_SLIDING_RAIL_SET_ACCELERATION": '設置滑軌加速度為 %1 mm/s²',
+    "RS_SLIDING_RAIL_MOVE": '移動滑軌方向為 %1 距離為 %2 mm 速度為 %3 mm/s',
+    "RS_SLIDING_RAIL_MOVE_TO_ORIGIN": '移動滑軌到原點',
+    "RS_SLIDING_RAIL_STOP": '停止滑軌',
+
+    // rs conveyor belt
+    "RS_CONVEYOR_BELT_MOVE": '移動傳送帶方向為 %1 速度為 %2 mm/s',
+    "RS_CONVEYOR_BELT_STOP": '停止傳送帶',
+
+    // rs option
+    // anchor
+    "RS_OPTION_LEFT_TOP": '左上角',
+    "RS_OPTION_LEFT_BOTTOM": '左下角',
+    "RS_OPTION_RIGHT_TOP": '右上角',
+    "RS_OPTION_RIGHT_BOTTOM": '右下角',
+    "RS_OPTION_LEFT": '左',
+    "RS_OPTION_RIGHT": '右',
+    "RS_OPTION_TOP": '上',
+    "RS_OPTION_BOTTOM": '下',
+
+    // module status
+    "RS_OPTION_PICK": '吸取',
+    "RS_OPTION_RELEASE": '釋放',
+    "RS_OPTION_OFF": '關閉',
+    "RS_OPTION_NETURAL": '洩氣',
+    "RS_OPTION_GRIP": '抓取',
+
+    // module type
+    "RS_OPTION_PEN_HOLDER": '筆夾',
+    "RS_OPTION_AIR_PICKER": '吸盤',
+    "RS_OPTION_SOFT_GRIPPER": '柔性爪',
+
+    // motion mode
+    "RS_OPTION_FAST": '快速',
+    "RS_OPTION_LINEAR": '直線',
+
+    // direction
+    "RS_OPTION_FORWARD": '前進',
+    "RS_OPTION_BACKWARD": '後退',
+    "RS_OPTION_CLOCKWISE": '順時針',
+    "RS_OPTION_ANTICLOCKWISE": '逆時針',
+
+    "RS_OPTION_X": 'x',
+    "RS_OPTION_Y": 'y',
+    "RS_OPTION_Z": 'z',
+
+    "RS_OPTION_PRINTING": '列印',
+    "RS_OPTION_RETRACT": '回抽',
+    "RS_OPTION_TRAVEL": '空跑'
   };
 // End of combined translations
