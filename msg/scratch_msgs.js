@@ -1768,7 +1768,8 @@ Blockly.ScratchMsgs.locales["bg"] =
     "EVENT_WHENTHISSPRITECLICKED": "when this sprite clicked",
     "EVENT_WHENSTAGECLICKED": "when stage clicked",
     "EVENT_WHENTOUCHINGOBJECT": "when this sprite touches %1",
-    "EVENT_WHENBROADCASTRECEIVED": "when I receive %1",
+    // "EVENT_WHENBROADCASTRECEIVED": "when I receive %1",
+    "EVENT_WHENBROADCASTRECEIVED": "when %1 detacted",
     "EVENT_WHENBACKDROPSWITCHESTO": "when backdrop switches to %1",
     "EVENT_WHENGREATERTHAN": "когато %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "таймер",
@@ -3198,7 +3199,7 @@ Blockly.ScratchMsgs.locales["de"] =
     "EVENT_WHENTHISSPRITECLICKED": "Wenn diese Figur angeklickt wird",
     "EVENT_WHENSTAGECLICKED": "Wenn die Bühne angeklickt wird",
     "EVENT_WHENTOUCHINGOBJECT": "Wenn diese Figur %1 berührt",
-    "EVENT_WHENBROADCASTRECEIVED": "Wenn ich %1 empfange",
+    "EVENT_WHENBROADCASTRECEIVED": "Wenn Objekt erkannt wird %1",
     "EVENT_WHENBACKDROPSWITCHESTO": "Wenn das Bühnenbild zu %1 wechselt",
     "EVENT_WHENGREATERTHAN": "Wenn %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "Stoppuhr",
@@ -3453,7 +3454,10 @@ Blockly.ScratchMsgs.locales["de"] =
     "RS_MOTION_MOVE_RELATIVE": 'Relative Verschiebung x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": 'An %1 entlang eines Rechtecks %2 mm in der Breite %3 mm in der Höhe fahren',
     "RS_MOTION_MOVE_CIRCLE": 'Fahren auf einem Kreis von %1 mit einem Radius von %2 mm',
-    "RS_MOTION_ROTATE_WRIST": 'Drehen um Richtung %1 %2 Grad',
+    // "RS_MOTION_ROTATE_WRIST": 'Drehen um Richtung %1 %2 Grad',
+    "RS_MOTION_ROTATE_WRIST":"Drehen um Richtung %1 %2 Grad",
+    "RS_MOTION_ROTATE_WRIST_TO":"Drehen Sie das Gelenk auf %1 Grad",
+    "RS_MOTION_KEEP_ROTATE":"Drehen Sie das Gelenk kontinuierlich um %1 mit %2 Geschwindigkeit",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": 'Saugnapf %1',
@@ -3503,6 +3507,8 @@ Blockly.ScratchMsgs.locales["de"] =
     "RS_OPTION_PEN_HOLDER": 'Stift-Clip',
     "RS_OPTION_AIR_PICKER": 'Saugnapf',
     "RS_OPTION_SOFT_GRIPPER": 'Weicher Greifer',
+    "RS_OPTION_ROTARY_AIR_PICKER":"Drehbare Saugnäpfe",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"Drehbare flexible Backe",
 
     // motion mode
     "RS_OPTION_FAST": 'Schnell',
@@ -4140,7 +4146,7 @@ Blockly.ScratchMsgs.locales["en"] =
     "EVENT_WHENTHISSPRITECLICKED": "when this sprite clicked",
     "EVENT_WHENSTAGECLICKED": "when stage clicked",
     "EVENT_WHENTOUCHINGOBJECT": "when this sprite touches %1",
-    "EVENT_WHENBROADCASTRECEIVED": "when I receive %1",
+    "EVENT_WHENBROADCASTRECEIVED": "when %1 detacted",
     "EVENT_WHENBACKDROPSWITCHESTO": "when backdrop switches to %1",
     "EVENT_WHENGREATERTHAN": "when %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "timer",
@@ -4375,9 +4381,9 @@ Blockly.ScratchMsgs.locales["en"] =
     "DEFAULT_LIST_ITEM": "thing",
     "DELETE_LIST": "Delete the \"%1\" list",
     "RENAME_LIST": "Rename list",
-    "NEW_BROADCAST_MESSAGE": "New message",
+    "NEW_BROADCAST_MESSAGE": "New parameter",
     "NEW_BROADCAST_MESSAGE_TITLE": "New message name:",
-    "BROADCAST_MODAL_TITLE": "New Message",
+    "BROADCAST_MODAL_TITLE": "New parameter",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
 
     // for Rotrics Studio App
@@ -4395,7 +4401,10 @@ Blockly.ScratchMsgs.locales["en"] =
     "RS_MOTION_MOVE_RELATIVE": 'move relative x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": 'move rectangle at %1 of width %2 mm height %3 mm',
     "RS_MOTION_MOVE_CIRCLE": 'move circle at %1 radius %2 mm',
-    "RS_MOTION_ROTATE_WRIST": 'rotate wrist %1 %2 degree',
+    // "RS_MOTION_ROTATE_WRIST": 'rotate wrist %1 %2 degree',
+    "RS_MOTION_ROTATE_WRIST":"rotate wrist %1 %2 degree",
+    "RS_MOTION_ROTATE_WRIST_TO":"rotate wrist to %1 degree",
+    "RS_MOTION_KEEP_ROTATE":"keep rotate wrist at %1 direction at speed %2",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": 'air picker %1',
@@ -4445,6 +4454,8 @@ Blockly.ScratchMsgs.locales["en"] =
     "RS_OPTION_PEN_HOLDER": 'pen holder',
     "RS_OPTION_AIR_PICKER": 'air picker',
     "RS_OPTION_SOFT_GRIPPER": 'soft gripper',
+    "RS_OPTION_ROTARY_AIR_PICKER":"Rotary Air Picker",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"Rotary Soft Gripper",
 
     // motion mode
     "RS_OPTION_FAST": 'fast',
@@ -4510,7 +4521,7 @@ Blockly.ScratchMsgs.locales["es"] =
     "EVENT_WHENTHISSPRITECLICKED": "al hacer clic en este objeto",
     "EVENT_WHENSTAGECLICKED": "al hacer clic en el escenario",
     "EVENT_WHENTOUCHINGOBJECT": "cuando el objeto toque %1",
-    "EVENT_WHENBROADCASTRECEIVED": "al recibir %1",
+    "EVENT_WHENBROADCASTRECEIVED": "Al detectar el objeto %1",
     "EVENT_WHENBACKDROPSWITCHESTO": "cuando el fondo cambie a %1",
     "EVENT_WHENGREATERTHAN": "cuando %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "cronómetro",
@@ -4765,7 +4776,10 @@ Blockly.ScratchMsgs.locales["es"] =
     "RS_MOTION_MOVE_RELATIVE": 'move relative x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": 'move rectangle at %1 of width %2 mm height %3 mm',
     "RS_MOTION_MOVE_CIRCLE": 'move circle at %1 radius %2 mm',
-    "RS_MOTION_ROTATE_WRIST": 'rotate wrist %1 %2 degree',
+    // "RS_MOTION_ROTATE_WRIST": 'rotate wrist %1 %2 degree',
+    "RS_MOTION_ROTATE_WRIST":"Girar por dirección %1 %2 grados",
+    "RS_MOTION_ROTATE_WRIST_TO":"Girar la articulación hasta %1 grado",
+    "RS_MOTION_KEEP_ROTATE":"Girar la articulación continuamente de %1 grado al ritmo de %2",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": 'air picker %1',
@@ -4815,6 +4829,8 @@ Blockly.ScratchMsgs.locales["es"] =
     "RS_OPTION_PEN_HOLDER": 'pen holder',
     "RS_OPTION_AIR_PICKER": 'air picker',
     "RS_OPTION_SOFT_GRIPPER": 'soft gripper',
+    "RS_OPTION_ROTARY_AIR_PICKER":"Ventosas giratorias",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"Garras flexibles giratorias",
 
     // motion mode
     "RS_OPTION_FAST": 'fast',
@@ -5738,7 +5754,7 @@ Blockly.ScratchMsgs.locales["fr"] =
     "EVENT_WHENTHISSPRITECLICKED": "quand ce sprite est cliqué",
     "EVENT_WHENSTAGECLICKED": "quand la scène est cliquée",
     "EVENT_WHENTOUCHINGOBJECT": "quand ce sprite touche %1",
-    "EVENT_WHENBROADCASTRECEIVED": "quand je reçois %1",
+    "EVENT_WHENBROADCASTRECEIVED": "Lorsqu'un objet est détecté %1",
     "EVENT_WHENBACKDROPSWITCHESTO": "quand l'arrière-plan bascule sur %1",
     "EVENT_WHENGREATERTHAN": "quand le %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "chronomètre",
@@ -5993,7 +6009,10 @@ Blockly.ScratchMsgs.locales["fr"] =
     "RS_MOTION_MOVE_RELATIVE": 'Décalage relatif x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": 'Déplacement à %1 le long d\'un rectangle %2 mm en largeur %3 mm en hauteur',
     "RS_MOTION_MOVE_CIRCLE": 'Se déplacer dans un cercle de %1 sur un rayon de %2 mm',
-    "RS_MOTION_ROTATE_WRIST": 'Rotation par sens %1 %2 degrés',
+    // "RS_MOTION_ROTATE_WRIST": 'Rotation par sens %1 %2 degrés',
+    "RS_MOTION_ROTATE_WRIST":"Rotation par sens %1 %2 degrés",
+    "RS_MOTION_ROTATE_WRIST_TO":"Joint rotatif à %1 degré",
+    "RS_MOTION_KEEP_ROTATE":"Joint rotatif continu %1 à la vitesse de %2",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": 'Suçoir %1',
@@ -6043,6 +6062,8 @@ Blockly.ScratchMsgs.locales["fr"] =
     "RS_OPTION_PEN_HOLDER": 'Pince à stylo',
     "RS_OPTION_AIR_PICKER": 'Suçoir',
     "RS_OPTION_SOFT_GRIPPER": 'Pince souple',
+    "RS_OPTION_ROTARY_AIR_PICKER":"Ventouse rotative",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"Griffe flexible rotative",
 
     // motion mode
     "RS_OPTION_FAST": 'Rapide',
@@ -6966,7 +6987,7 @@ Blockly.ScratchMsgs.locales["ko"] =
     "EVENT_WHENTHISSPRITECLICKED": "이 스프라이트를 클릭했을 때",
     "EVENT_WHENSTAGECLICKED": "무대를 클릭했을 때",
     "EVENT_WHENTOUCHINGOBJECT": "이 스프라이트가 %1 에 닿을 때",
-    "EVENT_WHENBROADCASTRECEIVED": "%1 신호를 받았을 때",
+    "EVENT_WHENBROADCASTRECEIVED": "%1 물체가 감지되면",
     "EVENT_WHENBACKDROPSWITCHESTO": "배경이 %1 (으)로 바뀌었을 때",
     "EVENT_WHENGREATERTHAN": "%1 > %2 일 때",
     "EVENT_WHENGREATERTHAN_TIMER": "타이머",
@@ -7221,7 +7242,10 @@ Blockly.ScratchMsgs.locales["ko"] =
     "RS_MOTION_MOVE_RELATIVE": '상대적으로 이동 x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": '%1 에서 폭 %2 mm 높이 %3 mm 의 직사각형을 따라 이동',
     "RS_MOTION_MOVE_CIRCLE": '%1 에서 반지름 %2 mm 의 원형을 따라 이동',
-    "RS_MOTION_ROTATE_WRIST": '방향별 %1 %2 도 회전',
+    // "RS_MOTION_ROTATE_WRIST": '방향별 %1 %2 도 회전',
+    "RS_MOTION_ROTATE_WRIST":"방향별 %1 %2 도 회전",
+    "RS_MOTION_ROTATE_WRIST_TO":"회전 관절 %1 도로 ",
+    "RS_MOTION_KEEP_ROTATE":"연속 회전 관절 %1, 속도 %2 로",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": '에어픽 %1',
@@ -7271,6 +7295,8 @@ Blockly.ScratchMsgs.locales["ko"] =
     "RS_OPTION_PEN_HOLDER": '펜홀더',
     "RS_OPTION_AIR_PICKER": '에어픽',
     "RS_OPTION_SOFT_GRIPPER": '소프트 그리퍼',
+    "RS_OPTION_ROTARY_AIR_PICKER":"회전 서커",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"회전 유연 집게발",
 
     // motion mode
     "RS_OPTION_FAST": '빠른 속도',
@@ -8766,7 +8792,7 @@ Blockly.ScratchMsgs.locales["it"] =
     "EVENT_WHENTHISSPRITECLICKED": "quando si clicca questo sprite",
     "EVENT_WHENSTAGECLICKED": "quando si clicca sullo Stage",
     "EVENT_WHENTOUCHINGOBJECT": "quando questo sprite tocca %1",
-    "EVENT_WHENBROADCASTRECEIVED": "quando ricevo %1",
+    "EVENT_WHENBROADCASTRECEIVED": "Quando viene rilevato un oggetto %1",
     "EVENT_WHENBACKDROPSWITCHESTO": "quando lo sfondo passa a %1",
     "EVENT_WHENGREATERTHAN": "quando %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "cronometro",
@@ -9021,7 +9047,10 @@ Blockly.ScratchMsgs.locales["it"] =
     "RS_MOTION_MOVE_RELATIVE": 'Spostamento relativo x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": 'Spostamento a %1 lungo un rettangolo %2 mm in larghezza %3 mm in altezza',
     "RS_MOTION_MOVE_CIRCLE": 'Spostare in un cerchio di %1 lungo un raggio di %2 mm',
-    "RS_MOTION_ROTATE_WRIST": 'Ruotare in direzione %1 %2 gradi',
+    // "RS_MOTION_ROTATE_WRIST": 'Ruotare in direzione %1 %2 gradi',
+    "RS_MOTION_ROTATE_WRIST":"Girar por dirección %1 %2 grados",
+    "RS_MOTION_ROTATE_WRIST_TO":"Girar la articulación hasta %1 grado",
+    "RS_MOTION_KEEP_ROTATE":"Girar la articulación continuamente de %1 grado al ritmo de %2",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": 'Pipetta %1',
@@ -9071,6 +9100,8 @@ Blockly.ScratchMsgs.locales["it"] =
     "RS_OPTION_PEN_HOLDER": 'Clip per penna',
     "RS_OPTION_AIR_PICKER": 'Pipetta',
     "RS_OPTION_SOFT_GRIPPER": 'Pinza Morbida',
+    "RS_OPTION_ROTARY_AIR_PICKER":"Ventose rotanti",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"Ganasce flessibili rotanti",
 
     // motion mode
     "RS_OPTION_FAST": 'Veloce',
@@ -11996,7 +12027,7 @@ Blockly.ScratchMsgs.locales["ja"] =
     "EVENT_WHENTHISSPRITECLICKED": "このスプライトが押されたとき",
     "EVENT_WHENSTAGECLICKED": "ステージが押されたとき",
     "EVENT_WHENTOUCHINGOBJECT": "このスプライトが %1 に触れたとき",
-    "EVENT_WHENBROADCASTRECEIVED": "%1 を受け取ったとき",
+    "EVENT_WHENBROADCASTRECEIVED": "%1 物体が検出されると",
     "EVENT_WHENBACKDROPSWITCHESTO": "背景が %1 になったとき",
     "EVENT_WHENGREATERTHAN": "%1 > %2 のとき",
     "EVENT_WHENGREATERTHAN_TIMER": "タイマー",
@@ -12252,7 +12283,10 @@ Blockly.ScratchMsgs.locales["ja"] =
     "RS_MOTION_MOVE_RELATIVE": '相対移動 x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": '幅 %3 mm 幅の長方形 %2 mm に沿って %1 で移動する',
     "RS_MOTION_MOVE_CIRCLE": '半径 %2 mm の円に沿って %1 内を移動する',
-    "RS_MOTION_ROTATE_WRIST": '方向により回転 %1 %2 度',
+    // "RS_MOTION_ROTATE_WRIST": '方向により回転 %1 %2 度',
+    "RS_MOTION_ROTATE_WRIST":"方向により回転 %1 %2 度",
+    "RS_MOTION_ROTATE_WRIST_TO":"関節を %1 に回転",
+    "RS_MOTION_KEEP_ROTATE":"%2 の速度で %1 の関節を連続的に回転させます",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": 'エアーピッカー %1',
@@ -12302,6 +12336,8 @@ Blockly.ScratchMsgs.locales["ja"] =
     "RS_OPTION_PEN_HOLDER": 'ペンクリップ',
     "RS_OPTION_AIR_PICKER": 'エアーピッカー',
     "RS_OPTION_SOFT_GRIPPER": 'ソフトグリッパー',
+    "RS_OPTION_ROTARY_AIR_PICKER":"回転吸盤",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"かいてんたわみあご",
 
     // motion mode
     "RS_OPTION_FAST": 'クイック',
@@ -14655,7 +14691,7 @@ Blockly.ScratchMsgs.locales["pt-br"] =
     "EVENT_WHENTHISSPRITECLICKED": "quando este ator for clicado",
     "EVENT_WHENSTAGECLICKED": "quando o palco for clicado",
     "EVENT_WHENTOUCHINGOBJECT": "quando este ator tocar %1",
-    "EVENT_WHENBROADCASTRECEIVED": "quando eu receber %1",
+    "EVENT_WHENBROADCASTRECEIVED": "Quando um objeto é detectado %1",
     "EVENT_WHENBACKDROPSWITCHESTO": "quando o cenário mudar para %1",
     "EVENT_WHENGREATERTHAN": "quando %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "cronômetro",
@@ -14910,7 +14946,10 @@ Blockly.ScratchMsgs.locales["pt-br"] =
     "RS_MOTION_MOVE_RELATIVE": 'Movimento relativo x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": 'Mova-se em %1 ao longo de um rectângulo %2 mm de largura %3 mm de altura',
     "RS_MOTION_MOVE_CIRCLE": 'Deslocar-se num círculo de %1 ao longo de um raio de %2 mm',
-    "RS_MOTION_ROTATE_WRIST": 'Rotação na direcção %1 %2 graus',
+    // "RS_MOTION_ROTATE_WRIST": 'Rotação na direcção %1 %2 graus',
+    "RS_MOTION_ROTATE_WRIST":"Rotação na direcção %1 %2 graus",
+    "RS_MOTION_ROTATE_WRIST_TO":"Girar a junta em %1 de grau",
+    "RS_MOTION_KEEP_ROTATE":"Continuar a girar a junta %1 na velocidade %2",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": 'Ventosa %1',
@@ -14960,6 +14999,8 @@ Blockly.ScratchMsgs.locales["pt-br"] =
     "RS_OPTION_PEN_HOLDER": 'clipe de caneta',
     "RS_OPTION_AIR_PICKER": 'Ventosa',
     "RS_OPTION_SOFT_GRIPPER": 'Mandíbula de agarrar flexível',
+    "RS_OPTION_ROTARY_AIR_PICKER":"Mandril rotativo",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"Garra flexível rotativa",
 
     // motion mode
     "RS_OPTION_FAST": 'rápido',
@@ -15597,7 +15638,7 @@ Blockly.ScratchMsgs.locales["ru"] =
     "EVENT_WHENTHISSPRITECLICKED": "когда спрайт нажат",
     "EVENT_WHENSTAGECLICKED": "когда кликнут по сцене",
     "EVENT_WHENTOUCHINGOBJECT": "когда этот спрайт касается %1",
-    "EVENT_WHENBROADCASTRECEIVED": "когда я получу %1",
+    "EVENT_WHENBROADCASTRECEIVED": "При обнаружении объекта %1",
     "EVENT_WHENBACKDROPSWITCHESTO": "когда фон сменился на %1",
     "EVENT_WHENGREATERTHAN": "когда %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "таймер",
@@ -15852,7 +15893,10 @@ Blockly.ScratchMsgs.locales["ru"] =
     "RS_MOTION_MOVE_RELATIVE": 'Относительный сдвиг x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": 'Двигаться на %1 вдоль прямоугольника %2 мм в ширину %3 мм в высоту',
     "RS_MOTION_MOVE_CIRCLE": 'Двигаться в круге %1 по радиусу %2 мм',
-    "RS_MOTION_ROTATE_WRIST": 'Поворот на направление %1 %2 градуса',
+    // "RS_MOTION_ROTATE_WRIST": 'Поворот на направление %1 %2 градуса',
+    "RS_MOTION_ROTATE_WRIST":"Поворот на направление %1 %2 градуса",
+    "RS_MOTION_ROTATE_WRIST_TO":"Повернуть шарнир на %1 градус",
+    "RS_MOTION_KEEP_ROTATE":"Непрерывно повернуть шарнир %1 при скорости %2",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": 'Присоска %1',
@@ -15902,6 +15946,8 @@ Blockly.ScratchMsgs.locales["ru"] =
     "RS_OPTION_PEN_HOLDER": 'Зажим для ручек',
     "RS_OPTION_AIR_PICKER": 'Присоска',
     "RS_OPTION_SOFT_GRIPPER": 'Мягкий захват',
+    "RS_OPTION_ROTARY_AIR_PICKER":"Вращающаяся присоска",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"Вращающийся гибкий коготь",
 
     // motion mode
     "RS_OPTION_FAST": 'Быстрый',
@@ -18255,7 +18301,7 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "EVENT_WHENTHISSPRITECLICKED": "当角色被点击",
     "EVENT_WHENSTAGECLICKED": "当舞台被点击",
     "EVENT_WHENTOUCHINGOBJECT": "当该角色碰到 %1",
-    "EVENT_WHENBROADCASTRECEIVED": "当接收到 %1",
+    "EVENT_WHENBROADCASTRECEIVED": "当检测到 %1",
     "EVENT_WHENBACKDROPSWITCHESTO": "当背景换成 %1",
     "EVENT_WHENGREATERTHAN": "当 %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "计时器",
@@ -18493,10 +18539,16 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "DEFAULT_LIST_ITEM": "东西",
     "DELETE_LIST": "删除「%1」列表",
     "RENAME_LIST": "修改列表名",
-    "NEW_BROADCAST_MESSAGE": "新消息",
-    "NEW_BROADCAST_MESSAGE_TITLE": "新消息的名称：",
-    "BROADCAST_MODAL_TITLE": "新消息",
+    "NEW_BROADCAST_MESSAGE": "新参数",
+    "NEW_BROADCAST_MESSAGE_TITLE": "新参数的名称：",
+    "BROADCAST_MODAL_TITLE": "新参数",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1",
+    "DEFAULT_BROADCAST_MESSAGE_RED": 'red',
+    "DEFAULT_BROADCAST_MESSAGE_YELLOW": 'yellow',
+    "DEFAULT_BROADCAST_MESSAGE_BLUE": 'blue',
+    "DEFAULT_BROADCAST_MESSAGE_GREEN": 'green',
+    "DEFAULT_BROADCAST_MESSAGE_ORANGE": 'orange',
+    "DEFAULT_BROADCAST_MESSAGE_PURPLE": 'purple',
 
     // for Rotrics Studio App
     // Category labels
@@ -18513,7 +18565,12 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "RS_MOTION_MOVE_RELATIVE": '相对移动 x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": '在 %1 沿宽 %2mm 高 %3mm 的矩形移动',
     "RS_MOTION_MOVE_CIRCLE": '在 %1 沿半径 %2 mm 的圆形移动',
-    "RS_MOTION_ROTATE_WRIST": '按方向 %1 %2 度旋转',
+    // "RS_MOTION_ROTATE_WRIST": '按方向 %1 %2 度旋转',
+    // "RS_MOTION_ROTATE_WRIST_TO": '旋转至 %1 度',
+    // "RS_MOTION_KEEP_ROTATE": "保持按方向 %1 以速度 %2 旋转",
+    "RS_MOTION_ROTATE_WRIST":"按方向 %1 %2 度旋转",
+    "RS_MOTION_ROTATE_WRIST_TO":"旋转关节到 %1 度",
+    "RS_MOTION_KEEP_ROTATE":"保持关节以 方向 %1 速度 %2 旋转",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": '吸盘 %1',
@@ -18561,6 +18618,8 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
 
     // module type
     "RS_OPTION_PEN_HOLDER": '笔夹',
+    "RS_OPTION_ROTARY_AIR_PICKER": '旋转吸盘',
+    "RS_OPTION_ROTARY_SOFT_GRIPPER": '旋转柔性爪',
     "RS_OPTION_AIR_PICKER": '吸盘',
     "RS_OPTION_SOFT_GRIPPER": '柔性爪',
 
@@ -18628,7 +18687,7 @@ Blockly.ScratchMsgs.locales["zh-tw"] =
     "EVENT_WHENTHISSPRITECLICKED": "當角色被點擊",
     "EVENT_WHENSTAGECLICKED": "當舞台被點擊",
     "EVENT_WHENTOUCHINGOBJECT": "當角色碰到 %1",
-    "EVENT_WHENBROADCASTRECEIVED": "當收到訊息 %1",
+    "EVENT_WHENBROADCASTRECEIVED": "當檢測到 %1",
     "EVENT_WHENBACKDROPSWITCHESTO": "當背景換成 %1",
     "EVENT_WHENGREATERTHAN": "當 %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "計時器",
@@ -18883,7 +18942,10 @@ Blockly.ScratchMsgs.locales["zh-tw"] =
     "RS_MOTION_MOVE_RELATIVE": '相對移動 x %1 y %2 z %3',
     "RS_MOTION_MOVE_RECTANGLE": '在 %1 沿寬 %2mm 高 %3mm 的矩形移動',
     "RS_MOTION_MOVE_CIRCLE": '在 %1 沿半徑 %2 mm 的圓形移動',
-    "RS_MOTION_ROTATE_WRIST": '按方向 %1 %2 度旋轉',
+    // "RS_MOTION_ROTATE_WRIST": '按方向 %1 %2 度旋轉',
+    "RS_MOTION_ROTATE_WRIST":"按方向 %1 %2 度旋轉",
+    "RS_MOTION_ROTATE_WRIST_TO":"旋轉關節到 %1 度",
+    "RS_MOTION_KEEP_ROTATE":"連續旋轉關節 %1 以速度 %2",
 
     // rs module
     "RS_FRONT_END_AIR_PICKER": '吸盤 %1',
@@ -18933,6 +18995,8 @@ Blockly.ScratchMsgs.locales["zh-tw"] =
     "RS_OPTION_PEN_HOLDER": '筆夾',
     "RS_OPTION_AIR_PICKER": '吸盤',
     "RS_OPTION_SOFT_GRIPPER": '柔性爪',
+    "RS_OPTION_ROTARY_AIR_PICKER": "旋转吸盘",
+    "RS_OPTION_ROTARY_SOFT_GRIPPER":"旋转柔性爪",
 
     // motion mode
     "RS_OPTION_FAST": '快速',

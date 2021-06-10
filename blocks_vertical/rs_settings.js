@@ -7,7 +7,7 @@ goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
 Blockly.Blocks['RS_SETTINGS_SELECT_FRONT_END'] = {
-  init: function () {
+  init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.RS_SETTINGS_SELECT_FRONT_END,
       "args0": [
@@ -16,6 +16,9 @@ Blockly.Blocks['RS_SETTINGS_SELECT_FRONT_END'] = {
           "name": "VALUE1",
           "options": [
             [Blockly.Msg.RS_OPTION_PEN_HOLDER, 'pen holder'],
+            // 在 Scratch-Settings 中修改模块设置选项
+            [Blockly.Msg.RS_OPTION_ROTARY_AIR_PICKER, 'rotary air picker'],
+            [Blockly.Msg.RS_OPTION_ROTARY_SOFT_GRIPPER, 'rotary soft gripper'],
             [Blockly.Msg.RS_OPTION_AIR_PICKER, 'air picker'],
             [Blockly.Msg.RS_OPTION_SOFT_GRIPPER, 'soft gripper'],
           ]
@@ -78,7 +81,7 @@ Blockly.Blocks['RS_SETTINGS_SET_ACCELERATION'] = {
 };
 
 Blockly.Blocks['RS_SETTINGS_SET_MOTION_MODE'] = {
-  init: function () {
+  init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.RS_SETTINGS_SET_MOTION_MODE,
       "args0": [

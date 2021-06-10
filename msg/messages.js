@@ -81,7 +81,7 @@ Blockly.Msg.EVENT_WHENFLAGCLICKED = 'when %1 clicked';
 Blockly.Msg.EVENT_WHENTHISSPRITECLICKED = 'when this sprite clicked';
 Blockly.Msg.EVENT_WHENSTAGECLICKED = 'when stage clicked';
 Blockly.Msg.EVENT_WHENTOUCHINGOBJECT = 'when this sprite touches %1';
-Blockly.Msg.EVENT_WHENBROADCASTRECEIVED = 'when I receive %1';
+Blockly.Msg.EVENT_WHENBROADCASTRECEIVED = 'When %1 detacted';
 Blockly.Msg.EVENT_WHENBACKDROPSWITCHESTO = 'when backdrop switches to %1';
 Blockly.Msg.EVENT_WHENGREATERTHAN = 'when %1 > %2';
 Blockly.Msg.EVENT_WHENGREATERTHAN_TIMER = 'timer';
@@ -350,6 +350,12 @@ Blockly.Msg.NEW_BROADCAST_MESSAGE = 'New message';
 Blockly.Msg.NEW_BROADCAST_MESSAGE_TITLE = 'New message name:';
 Blockly.Msg.BROADCAST_MODAL_TITLE = 'New Message';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
+Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_RED = 'red';
+Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_YELLOW = 'yellow';
+Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_BLUE = 'blue';
+Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_GREEN = 'green';
+Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_ORANGE = 'orange';
+Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_PURPLE = 'purple';
 
 // for Rotrics Studio App
 // Category labels
@@ -367,6 +373,8 @@ Blockly.Msg.RS_MOTION_MOVE_RELATIVE = 'move relative x %1 y %2 z %3';
 Blockly.Msg.RS_MOTION_MOVE_RECTANGLE = 'move rectangle at %1 of width %2 mm height %3 mm';
 Blockly.Msg.RS_MOTION_MOVE_CIRCLE = 'move circle at %1 radius %2 mm';
 Blockly.Msg.RS_MOTION_ROTATE_WRIST = 'rotate wrist %1 %2 degree';
+Blockly.Msg.RS_MOTION_ROTATE_WRIST_TO = 'rotate wrist to %1 degree';
+Blockly.Msg.RS_MOTION_KEEP_ROTATE = 'keep rotate wrist %1 at speed %2';
 
 // rs module
 Blockly.Msg.RS_FRONT_END_AIR_PICKER = 'air picker %1';
@@ -414,6 +422,8 @@ Blockly.Msg.RS_OPTION_GRIP = 'grip';
 
 // module type
 Blockly.Msg.RS_OPTION_PEN_HOLDER = 'pen holder';
+Blockly.Msg.RS_OPTION_ROTARY_AIR_PICKER = 'rotary air picker';
+Blockly.Msg.RS_OPTION_ROTARY_SOFT_GRIPPER = 'rotary soft gripper';
 Blockly.Msg.RS_OPTION_AIR_PICKER = 'air picker';
 Blockly.Msg.RS_OPTION_SOFT_GRIPPER = 'soft gripper';
 

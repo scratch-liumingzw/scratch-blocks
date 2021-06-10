@@ -1,3 +1,5 @@
+// 生成msg翻译文件
+
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
@@ -51,6 +53,8 @@ goog.require('Blockly.ScratchMsgs');
 `;
 
 let files = glob.sync(PATH_INPUT);
+console.log(`path = ${PATH_INPUT}`)
+console.log(files)
 files.forEach(function (uri) {
     const name = path.parse(uri).name;
     if (name !== 'qqq' && name !== 'synonyms') {

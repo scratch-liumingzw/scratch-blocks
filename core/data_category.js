@@ -387,15 +387,21 @@ Blockly.DataCategory.addCreateButton = function(xmlList, workspace, type) {
   // Set default msg, callbackKey, and callback values for type 'VARIABLE'
   var msg = Blockly.Msg.NEW_VARIABLE;
   var callbackKey = 'CREATE_VARIABLE';
+  // console.log('建立变量的回调方法')
   var callback = function(button) {
-    Blockly.Variables.createVariable(button.getTargetWorkspace(), null, '');};
+    Blockly.Variables.createVariable(button.getTargetWorkspace(), null, '');
+  };
 
   if (type === 'LIST') {
     msg = Blockly.Msg.NEW_LIST;
     callbackKey = 'CREATE_LIST';
-    callback = function(button) {
-      Blockly.Variables.createVariable(button.getTargetWorkspace(), null,
-          Blockly.LIST_VARIABLE_TYPE);};
+    // 建立变量的回调方法
+    callback = function (button) {
+      Blockly.Variables.createVariable(
+        button.getTargetWorkspace(), 
+        null,
+        Blockly.LIST_VARIABLE_TYPE);
+    };
   }
   button.setAttribute('text', msg);
   button.setAttribute('callbackKey', callbackKey);

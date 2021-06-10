@@ -264,6 +264,21 @@ Blockly.Variables.realizePotentialVar = function(varName, varType, potentialVarW
   return realWs.createVariable(varName, varType, id);
 };
 
+// 创建内置消息
+Blockly.Variables.createInnerVariable = function(workspace) {
+  const res = []
+  // red在event中设置
+  const data = ['yellow', 'blue', 'green', 'orange', 'purple']
+
+  for (let i = 0; i < data.length; i++) {
+    const variable = workspace.createVariable(data[i], 'broadcast_msg', null, false, false);
+    const id = variable.getId();
+    res.push([variable.name, id])
+  }
+
+  return res
+}
+
 /**
  * Create a new variable on the given workspace.
  * @param {!Blockly.Workspace} workspace The workspace on which to create the
@@ -297,6 +312,9 @@ Blockly.Variables.createVariable = function(workspace, opt_callback, opt_type) {
   var validate = Blockly.Variables.nameValidator_.bind(null, opt_type);
 
   // Prompt the user to enter a name for the variable
+  // 建立变量
+  console.log('建立变量')
+  console.log(Blockly)
   Blockly.prompt(newMsg, '',
       function(text, additionalVars, variableOptions) {
         variableOptions = variableOptions || {};

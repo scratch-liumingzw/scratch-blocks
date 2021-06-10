@@ -395,11 +395,12 @@ Blockly.confirm = function(message, callback) {
  * @param {?string} _opt_varType An optional variable type for variable specific
  *     prompt behavior.
  */
-Blockly.prompt = function(message, defaultValue, callback, _opt_title,
-    _opt_varType) {
+Blockly.prompt = async function(message, defaultValue, callback, _opt_title, _opt_varType) {
   // opt_title and opt_varType are unused because we only need them to pass
   // information to the scratch-gui, which overwrites this function
-  callback(window.prompt(message, defaultValue));
+  // callback(window.prompt(message, defaultValue));
+  const res = await window.test()
+  callback(res);
 };
 
 /**

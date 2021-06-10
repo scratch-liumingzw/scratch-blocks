@@ -137,7 +137,11 @@ Blockly.Blocks['event_whenbroadcastreceived'] = {
           "type": "field_variable",
           "name": "BROADCAST_OPTION",
           "variableTypes": [Blockly.BROADCAST_MESSAGE_VARIABLE_TYPE],
-          "variable": Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME
+          "variable": Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_RED
+          // "options": [
+          //   [Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_RED, 'red'],
+          //   [Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_YELLOW, 'yellow']
+          // ]
         }
       ],
       "category": Blockly.Categories.event,
@@ -210,7 +214,7 @@ Blockly.Blocks['event_broadcast_menu'] = {
           "type": "field_variable",
           "name": "BROADCAST_OPTION",
           "variableTypes":[Blockly.BROADCAST_MESSAGE_VARIABLE_TYPE],
-          "variable": Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME
+          "variable": Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_RED
         }
       ],
       "colour": Blockly.Colours.event.secondary,

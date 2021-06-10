@@ -287,13 +287,19 @@ Blockly.FieldVariable.dropdownCreate = function() {
   }
   if (workspace) {
     var variableTypes = this.getVariableTypes_();
+    console.log('variableTypes')
+    console.log(variableTypes)
     var variableModelList = [];
     // Get a copy of the list, so that adding rename and new variable options
     // doesn't modify the workspace's list.
     for (var i = 0; i < variableTypes.length; i++) {
       var variableType = variableTypes[i];
       var variables = workspace.getVariablesOfType(variableType);
+      // console.log('variables')
+      // console.log(variables)
       variableModelList = variableModelList.concat(variables);
+      // console.log('variableModelList')
+      // console.log(JSON.parse(JSON.stringify(variableModelList)))
 
       var potentialVarMap = workspace.getPotentialVariableMap();
       if (potentialVarMap) {
@@ -310,8 +316,20 @@ Blockly.FieldVariable.dropdownCreate = function() {
     options[i] = [variableModelList[i].name, variableModelList[i].getId()];
   }
   if (this.defaultType_ == Blockly.BROADCAST_MESSAGE_VARIABLE_TYPE) {
-    options.unshift(
-        [Blockly.Msg.NEW_BROADCAST_MESSAGE, Blockly.NEW_BROADCAST_MESSAGE_ID]);
+    // 加入新变量
+    console.log('加入“新消息” 123')
+
+    const names = options.map((item) => item[0])
+    console.log(names)
+    const isInit = names.includes('yellow') && names.includes('blue') && names.includes('green')
+    if (!isInit) {
+      const innerVariables = Blockly.Variables.createInnerVariable(workspace)
+      console.log(innerVariables)
+      options.unshift(...innerVariables)
+    }
+    
+    options.unshift([Blockly.Msg.NEW_BROADCAST_MESSAGE, Blockly.NEW_BROADCAST_MESSAGE_ID]);
+    
   } else {
     // Scalar variables and lists have the same backing action, but the option
     // text is different.
@@ -322,15 +340,20 @@ Blockly.FieldVariable.dropdownCreate = function() {
       var renameText = Blockly.Msg.RENAME_VARIABLE;
       var deleteText = Blockly.Msg.DELETE_VARIABLE;
     }
+
     options.push([renameText, Blockly.RENAME_VARIABLE_ID]);
+    console.log(`option push ${renameText} ${Blockly.RENAME_VARIABLE_ID}`)
     if (deleteText) {
       options.push(
           [
             deleteText.replace('%1', name),
             Blockly.DELETE_VARIABLE_ID
           ]);
+      console.log('push delete')
     }
   }
+
+  console.log(options)
 
   return options;
 };
