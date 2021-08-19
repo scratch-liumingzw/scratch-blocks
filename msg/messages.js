@@ -357,6 +357,13 @@ Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_GREEN = 'green';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_ORANGE = 'orange';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_PURPLE = 'purple';
 
+
+// for Robot Arm
+// Category labels
+Blockly.Msg.CATEGORY_ROBOT_ARM = 'robot arm';
+Blockly.Msg.RA_MOTION_SET_ANGLES = '设置手的角度 大拇指 %1 食指 %2 中指 %3 无名指 %4 小拇指 %5 手掌 %6 ';
+
+
 // for Rotrics Studio App
 // Category labels
 Blockly.Msg.CATEGORY_RS_FRONT_END = 'Front End';
